@@ -1,6 +1,6 @@
 # ROBOT CLAIRE
 This project is result of three years of development from my high school era ...
-The main goal was to build my own robot from the scratch without using common
+The main goal was to build my own robot from scratch without using common
 construction parts, which can be bought nowadays in a many shops with things
 for hobbyists.
 
@@ -12,7 +12,7 @@ factory for fabrication. For this reason the mechanical construction was
 designed in inventor 2013. I case of electronic design I used Kicad.
 Project has already three upgrades, but first of them wasn't documented. Still
 I took some photos to catch the atmosphere of the very first steps in development 
-([claire-rev0](https://drive.google.com/drive/u/1/folders/1PmOoYiifd_Xv0sS2DL9yxbEeKM7cLnv_)).
+([claire-rev0](https://drive.google.com/open?id=1PmOoYiifd_Xv0sS2DL9yxbEeKM7cLnv_)).
 
 ## NAVIGATION IN PROJECT
 In following folders are placed README.md files with better description of 
