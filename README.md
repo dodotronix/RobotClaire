@@ -15,14 +15,15 @@ I took some photos to catch the atmosphere of the very first steps in developmen
 ([claire-rev0](https://drive.google.com/open?id=1PmOoYiifd_Xv0sS2DL9yxbEeKM7cLnv_)).
 
 ## NAVIGATION IN PROJECT
-In following folders are placed README.md files with better description of 
-its content as well. In particular folders is there also additional description
-included eventuelly with installation and lanching instructions. Currently is
-this repository in creation process so not all folders are fully uploaded yet.
+In next folders are placed README.md files as well with more precise content 
+description. In particular folders, there is also additional description
+included eventuelly with installation and execution as it is a directory with 
+software. Currently is this repository in creation process so not all folders
+have been fully uploaded yet.
 
 ## REPOSITORY ORGANISATION
 --
 
 ## NOTES
 This repository haven't been created at the beginning of the project. It serves
-for storing design data for further development.
+as design data storage for further development.
