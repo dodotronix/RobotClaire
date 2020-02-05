@@ -1,0 +1,228 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:LED_reflector-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D3
+U 1 1 565CB052
+P 5350 3625
+F 0 "D3" H 5350 3725 50  0000 C CNN
+F 1 "LED" H 5350 3525 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 5350 3625 60  0001 C CNN
+F 3 "" H 5350 3625 60  0000 C CNN
+	1    5350 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 565CB09F
+P 5625 3625
+F 0 "D4" H 5625 3725 50  0000 C CNN
+F 1 "LED" H 5625 3525 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 5625 3625 60  0001 C CNN
+F 3 "" H 5625 3625 60  0000 C CNN
+	1    5625 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D5
+U 1 1 565CB0D9
+P 5900 3625
+F 0 "D5" H 5900 3725 50  0000 C CNN
+F 1 "LED" H 5900 3525 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 5900 3625 60  0001 C CNN
+F 3 "" H 5900 3625 60  0000 C CNN
+	1    5900 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 565CB10A
+P 5075 3625
+F 0 "D2" H 5075 3725 50  0000 C CNN
+F 1 "LED" H 5075 3525 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 5075 3625 60  0001 C CNN
+F 3 "" H 5075 3625 60  0000 C CNN
+	1    5075 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 565CB19C
+P 4800 3625
+F 0 "D1" H 4800 3725 50  0000 C CNN
+F 1 "LED" H 4800 3525 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 4800 3625 60  0001 C CNN
+F 3 "" H 4800 3625 60  0000 C CNN
+	1    4800 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D6
+U 1 1 565CB2D7
+P 6175 3625
+F 0 "D6" H 6175 3725 50  0000 C CNN
+F 1 "LED" H 6175 3525 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 6175 3625 60  0001 C CNN
+F 3 "" H 6175 3625 60  0000 C CNN
+	1    6175 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 565CB434
+P 4500 3425
+F 0 "R1" V 4580 3425 40  0000 C CNN
+F 1 "R" V 4507 3426 40  0000 C CNN
+F 2 "libcms:SM0805" V 4430 3425 30  0001 C CNN
+F 3 "" H 4500 3425 30  0000 C CNN
+	1    4500 3425
+	0    1    1    0   
+$EndComp
+Text GLabel 4250 3425 0    47   Input ~ 0
++5V
+$Comp
+L GND #PWR01
+U 1 1 565CB56F
+P 8175 3825
+F 0 "#PWR01" H 8175 3825 30  0001 C CNN
+F 1 "GND" H 8175 3755 30  0001 C CNN
+F 2 "" H 8175 3825 60  0000 C CNN
+F 3 "" H 8175 3825 60  0000 C CNN
+	1    8175 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D7
+U 1 1 565CBC6F
+P 6450 3625
+F 0 "D7" H 6450 3725 50  0000 C CNN
+F 1 "LED" H 6450 3525 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 6450 3625 60  0001 C CNN
+F 3 "" H 6450 3625 60  0000 C CNN
+	1    6450 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D10
+U 1 1 565CBE9A
+P 7300 3625
+F 0 "D10" H 7300 3725 50  0000 C CNN
+F 1 "LED" H 7300 3525 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 7300 3625 60  0001 C CNN
+F 3 "" H 7300 3625 60  0000 C CNN
+	1    7300 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D11
+U 1 1 565CBEE9
+P 7600 3625
+F 0 "D11" H 7600 3725 50  0000 C CNN
+F 1 "LED" H 7600 3525 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 7600 3625 60  0001 C CNN
+F 3 "" H 7600 3625 60  0000 C CNN
+	1    7600 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D12
+U 1 1 565CBF8C
+P 7900 3625
+F 0 "D12" H 7900 3725 50  0000 C CNN
+F 1 "LED" H 7900 3525 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 7900 3625 60  0001 C CNN
+F 3 "" H 7900 3625 60  0000 C CNN
+	1    7900 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D8
+U 1 1 565CBCC3
+P 6725 3625
+F 0 "D8" H 6725 3725 50  0000 C CNN
+F 1 "LED" H 6725 3525 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 6725 3625 60  0001 C CNN
+F 3 "" H 6725 3625 60  0000 C CNN
+	1    6725 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D9
+U 1 1 565CBD0A
+P 7025 3625
+F 0 "D9" H 7025 3725 50  0000 C CNN
+F 1 "LED" H 7025 3525 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 7025 3625 60  0001 C CNN
+F 3 "" H 7025 3625 60  0000 C CNN
+	1    7025 3625
+	0    1    1    0   
+$EndComp
+Connection ~ 5075 3425
+Connection ~ 5350 3425
+Connection ~ 5625 3425
+Connection ~ 5900 3425
+Connection ~ 4800 3425
+Connection ~ 6175 3425
+Connection ~ 6450 3425
+Connection ~ 6725 3425
+Wire Wire Line
+	4750 3425 7900 3425
+Wire Wire Line
+	4800 3825 8175 3825
+Connection ~ 5075 3825
+Connection ~ 5350 3825
+Connection ~ 5625 3825
+Connection ~ 5900 3825
+Connection ~ 6175 3825
+Connection ~ 6450 3825
+Connection ~ 6725 3825
+Connection ~ 7025 3825
+Connection ~ 7300 3825
+Connection ~ 7600 3825
+Connection ~ 7025 3425
+Connection ~ 7300 3425
+Connection ~ 7600 3425
+Connection ~ 7900 3825
+$EndSCHEMATC
