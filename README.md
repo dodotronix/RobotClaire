@@ -4,7 +4,7 @@ The main goal was to build my own robot from scratch without using common
 construction parts, which can be bought nowadays in a many shops with things
 for hobbyists.
 
-![final](https://drive.google.com/uc?export=view&id=1479mbTOzc1M6gUYy6qhR2WHieLqiz61x | width=50)
+<img src="https://drive.google.com/uc?export=view&id=1479mbTOzc1M6gUYy6qhR2WHieLqiz61x" width="50%">
 
 In that time when I was creating my robot wasn't the opensource CAD programs
 on the sufficient level to design something which could be then sent to a
