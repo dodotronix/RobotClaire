@@ -1,0 +1,203 @@
+/*-----------------------------------------------------------------------------*/
+/* ATmega8_control_board.c
+ * date : 24.12.2014 11:27
+ *  Author: Petr Pacner
+*/
+
+#define CRTSCTS  020000000000
+#define MEASUREMENT_N 20 // constant - the number of measurement
+#define dID 0x32 // define the ID of the device on the I2C Bus
+#define _BSD_SOURCE
+#define _XOPEN_SOURCE
+
+#include <stdio.h>
+#include <fcntl.h>
+#include <stdint.h>
+#include <errno.h> //errno, perror, strerror
+#include <pthread.h> // THREADS (POSIX_library)
+#include <unistd.h>  // TIMING
+#include <termios.h> // SET_UART
+#include <math.h>
+#include <string.h>  // memcmp, memcpy
+#include <assert.h>  // assert
+#include <stdlib.h>  // EXIT_SUCCESS...
+#include <wiringPiI2C.h> // I2C_ACCESS 
+
+//variables
+volatile int required = 0;
+volatile int speed = 0;
+volatile int last = 0;
+//encoder 0xB0
+volatile uint32_t a = 0;
+volatile uint32_t lastA = 0;
+
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER; // static intialization of mutex
+
+int maestroSetTarget(int fd, unsigned char channel, unsigned short target) {
+  unsigned char command[] = {
+    0xAA, 0xC, 0x04, channel, target & 0x7F, target >> 7 & 0x7F
+  };
+
+  if (write(fd, command, sizeof(command)) == -1) {
+    perror("error writing");
+    return -1;
+  }
+  return 0;
+}
+
+
+int maestroSetMotors (int fd, unsigned short Motor0, unsigned short Motor1) {
+  unsigned char command[] = {
+    0xAA, 0xC, 0x1F, 2, 0, Motor0 & 0x7F, Motor0 >> 7 & 0x7F, Motor1 & 0x7F, Motor1 >> 7 & 0x7F
+  };
+
+  if (write(fd, command, sizeof(command)) == -1) {
+    perror("error writing");
+    return -1;
+  }
+  return 0;
+}
+
+int readI2Cdata (int fd, unsigned char device) { 
+unsigned char x = 0;
+unsigned char periodNum = 0; // number of periods - first coming number from ATmega  8
+uint32_t number = 0; // the value read from device
+  
+if(fd < 0) {
+  printf("error opening I2C channel.\n");
+}
+
+else {
+  if((wiringPiI2CWrite(fd, device))<0){
+    printf("Writing to slave: %s [%i]\n", strerror(errno), errno);
+  }
+  
+  if(( periodNum = wiringPiI2CRead (fd))<0){
+    printf("ERROR reading form slave\n"); // response to previous request from RPi -   returned number of coming bytes in next loop
+  }
+  for (int i = periodNum; i>0; --i) {
+    if(( x = wiringPiI2CRead (fd))<0){
+      printf("ERROR reading from slave\n");
+    }
+    
+    number = (number | ((x << ((periodNum-i)*8)))); // gathering function
+  }
+}
+return number;
+}
+
+void *EncoderThread (void *fd){
+  int filedes;
+  filedes = *(int *)fd;
+  while(1){
+    pthread_mutex_lock(&mutex);
+    lastA = a;
+    a = readI2Cdata(filedes, 0xB0);
+    pthread_mutex_unlock(&mutex);
+    usleep(20000);
+  }
+}
+
+void *SpeedThread0(){
+  while(1){
+    pthread_mutex_lock(&mutex);
+    last = speed; // last speed past to the last0 variable
+    speed = (a - lastA); // pulses per second
+    pthread_mutex_unlock(&mutex);
+    //usleep(10000);
+  }
+}
+
+void *RegulThread0(void *fd){
+  int filedes;
+  int Tset = 5936;
+  filedes = *(int *)fd;
+
+  while(1){
+    pthread_mutex_lock(&mutex);
+    Tset += 0.4*(required-speed)-0.01*(speed-last);
+    maestroSetTarget(filedes, 0, Tset);
+    pthread_mutex_unlock(&mutex);
+    usleep(10000);
+  }
+}
+
+int main(int argc, char *argv[]) {
+    argc = argc; argv = argv;
+
+//variables & constants
+const char *device = "/dev/ttyAMA0"; // Linux
+int fd = open(device, O_RDWR | O_NOCTTY);
+int fd1;
+if((fd1 = wiringPiI2CSetup(dID))<0){
+  printf("ERROR opening I2C channel\n");
+}
+
+//pointers
+pthread_t id0, id1, id2;
+void *Atmfd;
+void *mstfd;
+
+Atmfd = &fd1; //pointer on file descriptor from ATmega
+mstfd = &fd; //pointer on file descriptor from maestro
+
+struct termios options;
+tcgetattr(fd, &options);
+cfsetispeed(&options, B9600);
+cfsetospeed(&options, B9600);
+  
+options.c_cflag &= ~PARENB;
+options.c_cflag &= ~CSTOPB;
+options.c_cflag &= ~CSIZE;
+options.c_cflag |= CS8;
+  
+// no flow control
+options.c_cflag &= ~CRTSCTS;
+ 
+options.c_cflag |= CREAD | CLOCAL; // turn on READ & ignore ctrl lines
+options.c_iflag &= ~(IXON | IXOFF | IXANY); // turn off s/w flow ctrl
+  
+options.c_lflag &= ~(ICANON | ECHO | ECHOE | ISIG); // make raw
+options.c_oflag &= ~OPOST; // make raw
+  
+// see: http://unixwiz.net/techtips/termios-vmin-vtime.html
+options.c_cc[VMIN] = 0;
+options.c_cc[VTIME] = 20;
+
+if (tcsetattr(fd, TCSANOW, &options) < 0){
+  perror("init_serialport: Couldn't set term attributes");
+  return -1;
+}
+
+if (fd == -1) {
+  perror(device);
+  return -1;
+}
+
+//maestroSetMotors(fd, 5936, 5936);
+maestroSetTarget(fd, 0, 5936);
+
+printf("submit the required speed (count/second):");
+scanf(" %i", &required);
+//maestroSetTarget(fd, 0, 7000);
+
+printf("creating first thread\n");
+pthread_create(&id0, NULL, &RegulThread0, mstfd); //compensation of current speed
+pthread_create(&id0, NULL, &EncoderThread, Atmfd); //measure actual value from enc.
+pthread_create(&id1, NULL, &SpeedThread0, NULL); // compute the actual speed
+
+while(1){
+  pthread_mutex_lock(&mutex);
+  printf("SPEED: %i, %i\n", speed, last);
+  pthread_mutex_unlock(&mutex);
+  usleep(1000);
+}
+                              
+if (close(fd))
+  return EXIT_FAILURE;
+else
+  return EXIT_SUCCESS;
+ 
+return 0;
+}
+/*-----------------------------------------------------------------------------*/

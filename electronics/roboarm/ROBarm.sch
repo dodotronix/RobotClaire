@@ -1,0 +1,343 @@
+EESchema Schematic File Version 5
+EELAYER 32 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 6425 4400
+Connection ~ 6425 4500
+Connection ~ 6425 4600
+Connection ~ 6425 4700
+Connection ~ 6425 4800
+Connection ~ 6425 3500
+Connection ~ 6425 3600
+Connection ~ 6425 3700
+Connection ~ 6425 3800
+Connection ~ 6425 3900
+NoConn ~ 5175 3025
+Wire Wire Line
+	4275 2300 4275 2175
+Wire Wire Line
+	5175 3225 5225 3225
+Wire Wire Line
+	5175 3475 5225 3475
+Wire Wire Line
+	6225 3500 6425 3500
+Wire Wire Line
+	6425 3500 6425 3600
+Wire Wire Line
+	6425 3500 6550 3500
+Wire Wire Line
+	6425 3600 6425 3700
+Wire Wire Line
+	6425 3700 6425 3800
+Wire Wire Line
+	6425 3800 6425 3900
+Wire Wire Line
+	6425 3900 6425 4000
+Wire Wire Line
+	6425 4000 6550 4000
+Wire Wire Line
+	6425 4300 6425 4400
+Wire Wire Line
+	6425 4400 6425 4500
+Wire Wire Line
+	6425 4500 6425 4600
+Wire Wire Line
+	6425 4600 6425 4700
+Wire Wire Line
+	6425 4700 6425 4800
+Wire Wire Line
+	6425 4800 6425 5025
+Wire Wire Line
+	6550 3600 6425 3600
+Wire Wire Line
+	6550 3700 6425 3700
+Wire Wire Line
+	6550 3800 6425 3800
+Wire Wire Line
+	6550 3900 6425 3900
+Wire Wire Line
+	6550 4300 6425 4300
+Wire Wire Line
+	6550 4400 6425 4400
+Wire Wire Line
+	6550 4500 6425 4500
+Wire Wire Line
+	6550 4600 6425 4600
+Wire Wire Line
+	6550 4700 6425 4700
+Wire Wire Line
+	6550 4800 6425 4800
+Text GLabel 5175 2725 2    47   Input ~ 0
+SCL
+Text GLabel 5175 2825 2    47   Input ~ 0
+SDA
+Text GLabel 5175 2925 2    47   Input ~ 0
+IO_0
+Text GLabel 5175 3850 2    47   Input ~ 0
+SRV_3
+Text GLabel 5175 3950 2    47   Input ~ 0
+SRV_2
+Text GLabel 5175 4050 2    47   Input ~ 0
+SRV_1
+Text GLabel 5175 4150 2    47   Input ~ 0
+SRV_0
+Text GLabel 5175 4250 2    47   Input ~ 0
+SRV_4
+Text GLabel 5175 4350 2    47   Input ~ 0
+SRV_5
+Text GLabel 5175 4550 2    47   Input ~ 0
+IO_0
+Text GLabel 5175 4650 2    47   Input ~ 0
+SDA
+Text GLabel 5175 4750 2    47   Input ~ 0
+SCL
+Text GLabel 5175 4850 2    47   Input ~ 0
+PTCMs
+Text GLabel 5175 4950 2    47   Input ~ 0
+PTCM+
+Text GLabel 5175 5050 2    47   Input ~ 0
+PTCM-
+Text GLabel 6550 2275 0    47   Input ~ 0
+PTCM-
+Text GLabel 6550 2375 0    47   Input ~ 0
+PTCM+
+Text GLabel 6550 2475 0    47   Input ~ 0
+PTCMs
+Text GLabel 6550 2700 0    47   Input ~ 0
+SRV_0
+Text GLabel 6550 2800 0    47   Input ~ 0
+SRV_1
+Text GLabel 6550 2900 0    47   Input ~ 0
+SRV_2
+Text GLabel 6550 3000 0    47   Input ~ 0
+SRV_3
+Text GLabel 6550 3100 0    47   Input ~ 0
+SRV_4
+Text GLabel 6550 3200 0    47   Input ~ 0
+SRV_5
+$Comp
+L ROBarm-rescue:GND #PWR06
+U 1 1 5698283D
+P 4275 2175
+F 0 "#PWR06" H 4275 2175 30  0001 C CNN
+F 1 "GND" H 4275 2105 30  0001 C CNN
+F 2 "" H 4275 2175 60  0000 C CNN
+F 3 "" H 4275 2175 60  0000 C CNN
+	1    4275 2175
+	-1   0    0    1   
+$EndComp
+$Comp
+L ROBarm-rescue:GND #PWR07
+U 1 1 569857F6
+P 5225 3225
+F 0 "#PWR07" H 5225 3225 30  0001 C CNN
+F 1 "GND" H 5225 3155 30  0001 C CNN
+F 2 "" H 5225 3225 60  0000 C CNN
+F 3 "" H 5225 3225 60  0000 C CNN
+	1    5225 3225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ROBarm-rescue:GND #PWR04
+U 1 1 56982522
+P 5225 3475
+F 0 "#PWR04" H 5225 3475 30  0001 C CNN
+F 1 "GND" H 5225 3405 30  0001 C CNN
+F 2 "" H 5225 3475 60  0000 C CNN
+F 3 "" H 5225 3475 60  0000 C CNN
+	1    5225 3475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ROBarm-rescue:GND #PWR01
+U 1 1 5697E50E
+P 6425 5025
+F 0 "#PWR01" H 6425 5025 30  0001 C CNN
+F 1 "GND" H 6425 4955 30  0001 C CNN
+F 2 "" H 6425 5025 60  0000 C CNN
+F 3 "" H 6425 5025 60  0000 C CNN
+	1    6425 5025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+6V #PWR05
+U 1 1 5698281A
+P 4275 3200
+F 0 "#PWR05" H 4275 3330 20  0001 C CNN
+F 1 "+6V" H 4275 3300 30  0000 C CNN
+F 2 "" H 4275 3200 60  0000 C CNN
+F 3 "" H 4275 3200 60  0000 C CNN
+	1    4275 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+6V #PWR08
+U 1 1 569858D5
+P 5175 3125
+F 0 "#PWR08" H 5175 3255 20  0001 C CNN
+F 1 "+6V" H 5175 3225 30  0000 C CNN
+F 2 "" H 5175 3125 60  0000 C CNN
+F 3 "" H 5175 3125 60  0000 C CNN
+	1    5175 3125
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+6V #PWR03
+U 1 1 569824ED
+P 5175 3675
+F 0 "#PWR03" H 5175 3805 20  0001 C CNN
+F 1 "+6V" H 5175 3775 30  0000 C CNN
+F 2 "" H 5175 3675 60  0000 C CNN
+F 3 "" H 5175 3675 60  0000 C CNN
+	1    5175 3675
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+6V #PWR02
+U 1 1 5697E696
+P 6225 3500
+F 0 "#PWR02" H 6225 3630 20  0001 C CNN
+F 1 "+6V" H 6225 3600 30  0000 C CNN
+F 2 "" H 6225 3500 60  0000 C CNN
+F 3 "" H 6225 3500 60  0000 C CNN
+	1    6225 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ROBarm-rescue:R R1
+U 1 1 569827AF
+P 4275 2950
+F 0 "R1" V 4355 2950 40  0000 C CNN
+F 1 "R" V 4282 2951 40  0000 C CNN
+F 2 "libcms:SM0805" V 4205 2950 30  0001 C CNN
+F 3 "" H 4275 2950 30  0000 C CNN
+	1    4275 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ROBarm-rescue:LED D1
+U 1 1 56982754
+P 4275 2500
+F 0 "D1" H 4275 2600 50  0000 C CNN
+F 1 "LED" H 4275 2400 50  0000 C CNN
+F 2 "w_smd_leds:Led_0603" H 4275 2500 60  0001 C CNN
+F 3 "" H 4275 2500 60  0000 C CNN
+	1    4275 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ROBarm-rescue:CONN_2 P1
+U 1 1 569823F1
+P 4825 3575
+F 0 "P1" V 4775 3575 40  0000 C CNN
+F 1 "CONN_2" V 4875 3575 40  0000 C CNN
+F 2 "w_pin_strip:pin_strip_2-90" H 4825 3575 60  0001 C CNN
+F 3 "" H 4825 3575 60  0000 C CNN
+	1    4825 3575
+	-1   0    0    1   
+$EndComp
+$Comp
+L ROBarm-rescue:CONN_3 K2
+U 1 1 569D3971
+P 4825 4650
+F 0 "K2" V 4775 4650 50  0000 C CNN
+F 1 "CONN_3" V 4875 4650 40  0000 C CNN
+F 2 "w_pin_strip:pin_strip_3" H 4825 4650 60  0001 C CNN
+F 3 "" H 4825 4650 60  0000 C CNN
+	1    4825 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L ROBarm-rescue:CONN_3 K3
+U 1 1 569D39FE
+P 4825 4950
+F 0 "K3" V 4775 4950 50  0000 C CNN
+F 1 "CONN_3" V 4875 4950 40  0000 C CNN
+F 2 "w_pin_strip:pin_strip_3" H 4825 4950 60  0001 C CNN
+F 3 "" H 4825 4950 60  0000 C CNN
+	1    4825 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L ROBarm-rescue:CONN_3 K1
+U 1 1 5697F2C2
+P 6900 2375
+F 0 "K1" V 6850 2375 50  0000 C CNN
+F 1 "CONN_3" V 6950 2375 40  0000 C CNN
+F 2 "w_pin_strip:pin_strip_3-90" H 6900 2375 60  0001 C CNN
+F 3 "" H 6900 2375 60  0000 C CNN
+	1    6900 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L ROBarm-rescue:CONN_6 P6
+U 1 1 569855D1
+P 4825 2975
+F 0 "P6" V 4775 2975 60  0000 C CNN
+F 1 "CONN_6" V 4875 2975 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 4825 2975 60  0001 C CNN
+F 3 "" H 4825 2975 60  0000 C CNN
+	1    4825 2975
+	-1   0    0    1   
+$EndComp
+$Comp
+L ROBarm-rescue:CONN_6 P2
+U 1 1 569D35E5
+P 4825 4100
+F 0 "P2" V 4775 4100 60  0000 C CNN
+F 1 "CONN_6" V 4875 4100 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 4825 4100 60  0001 C CNN
+F 3 "" H 4825 4100 60  0000 C CNN
+	1    4825 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L ROBarm-rescue:CONN_6 P3
+U 1 1 5697E819
+P 6900 2950
+F 0 "P3" V 6850 2950 60  0000 C CNN
+F 1 "CONN_6" V 6950 2950 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 6900 2950 60  0001 C CNN
+F 3 "" H 6900 2950 60  0000 C CNN
+	1    6900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ROBarm-rescue:CONN_6 P4
+U 1 1 5697E2B4
+P 6900 3750
+F 0 "P4" V 6850 3750 60  0000 C CNN
+F 1 "CONN_6" V 6950 3750 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 6900 3750 60  0001 C CNN
+F 3 "" H 6900 3750 60  0000 C CNN
+	1    6900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ROBarm-rescue:CONN_6 P5
+U 1 1 5697E368
+P 6900 4550
+F 0 "P5" V 6850 4550 60  0000 C CNN
+F 1 "CONN_6" V 6950 4550 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 6900 4550 60  0001 C CNN
+F 3 "" H 6900 4550 60  0000 C CNN
+	1    6900 4550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

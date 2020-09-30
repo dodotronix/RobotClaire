@@ -1,0 +1,20 @@
+po porohozeni vetvi zjisteny jednotlive navesti:
+
+0xC0 ---- .L10
+0xC8 ---- .L11
+0xA8 ---- .L12
+0xA0 ---- .L5
+0x88 ---- .L13; .L8
+0x60 ---- .L7
+0x00 ---- .L9 (pri spravne pozici CASEu  muze byt zrusena)
+
+z datasheetu:
+0x36 == TWCR
+0x1 tzn. 0x01 ---- TWSR
+0x3 tzn. 0x03 ---- TWDR
+
+- hodnoty jsou napsane v decimalce
+- minusove hodnoty musi byt odecteny od cisla 256, pro ziskani zakodovaneho cisla
+
+vymaskovani ---- (-8) tzn 0xF8
+

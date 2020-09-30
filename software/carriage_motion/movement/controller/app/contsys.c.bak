@@ -1,0 +1,341 @@
+// FIXME add license!
+
+/* ATmega8_control_board.c
+ *
+ * datum : 24.12.2014 11:27
+ *  Author: Petr Pacner
+ *
+ *  program ma za ukol kontrolovat vsechny senzory na robotovi a podle toho vyhodnocovat danou situaci
+ *  komunikuje z AddPU - (pridavnou deskou), ktera sbira informace z enkoderu, reflexnich senzoru,
+ *  a potenciometru a posila je do RPi
+ *
+*/
+
+/* senzory
+ * konstanty byly zjisteny s pomoci programu gnuplot
+ * rovnice pro linearizaci:
+ * R = (1/(m*A+b))-k
+ *
+ * A - hodnota s a/d prevodniku
+ * R - vzdalenost prekazky od senzoru
+ * 
+ * R = (1/(m*V+b))-k
+ *
+ * v celociselne matematice (integer math) se pri deleni ingoruji cisla za desetinnou carkou
+ * -> proto je cela rovnice pro vypocet vzdalenosti prepsana s delenim
+ * uprava pro pocitani s celymi cisly: R = (m'/(V+b'))-k, m' = 1/m; b' = b/m
+ *
+*/
+
+// Macros
+#define CRTSCTS  020000000000
+#define dID 0x28 // define the ID of the device on the I2C Bus
+#define _BSD_SOURCE
+
+#include <stdio.h>
+#include <fcntl.h>
+#include <pthread.h> // THREADS (POSIX_library)
+#include <unistd.h>  // TIMING
+#include <termios.h> // SET_UART
+#include <math.h>
+#include <string.h>  // memcmp, memcpy
+#include <assert.h>  // assert
+#include <stdlib.h>  // EXIT_SUCCESS...
+#include <wiringPiI2C.h> // I2C_ACCESS
+
+#define MEASUREMENT_N 20 // the constant for setup the length of the array of function filtr_freq
+
+//global variables
+int actual = 0;
+int last = 0;
+int currspeed = 0;
+
+int maestroGetPosition(int fd, unsigned char channel) {
+  unsigned char command[] = {0xAA, 0xC, 0x10, channel};
+
+  if(write(fd, command, sizeof(command)) == -1) {
+    perror("error writing");
+    return -1;
+  }
+
+  int n = 0;
+  char response[2];
+  do {
+    int ec = read(fd, response+n, 1);
+
+    if (ec < 0) {
+      perror("error reading");
+      return ec;
+    }
+
+    if (ec == 0) continue;
+
+    n++;
+  } while (n < 2);
+
+  return response[0] + 256*response[1];
+}
+
+int maestroGetError(int fd) {
+  unsigned char command[] = { 0xAA, 0xC, 0x21 };
+
+  if (write(fd, command, sizeof(command)) != 3) {
+    perror("error writing");
+    return -1;
+  }
+
+  int n = 0;
+  unsigned char response[2];
+
+  do {
+    int ec = read(fd, response+n, 1);
+
+    if(ec < 0) {
+      perror("error reading");
+      return ec;
+    }
+
+    if (ec == 0) continue;
+
+    n++;
+  } while (n < 2);
+
+  return (int)sqrt(response[0] + 256*response[1]);
+}
+
+int maestroSetTarget(int fd, unsigned char channel, unsigned short target) {
+  unsigned char command[] = {
+    0xAA, 0xC, 0x04, channel, target & 0x7F, target >> 7 & 0x7F
+  };
+
+  if (write(fd, command, sizeof(command)) == -1) {
+    perror("error writing");
+    return -1;
+  }
+
+  return 0;
+}
+
+int maestroSetMotors (int fd, unsigned short Motor0, unsigned short Motor1) {
+  unsigned char command[] = {
+    0xAA, 0xC, 0x1F, 2, 0, Motor0 & 0x7F, Motor0 >> 7 & 0x7F, Motor1 & 0x7F, Motor1 >> 7 & 0x7F
+};
+ 
+  if (write(fd, command, sizeof(command)) == -1) {
+    perror("error writing");
+    return -1;
+  }
+
+  return 0;
+}
+
+void printPole(int pole[],int  pocet) {
+  for (int x = 0; x < pocet; ++x) printf("cislo: %i\n", pole[x]);
+}
+
+void insertionSort(int cislo, int pole[], int misto) {
+  int k = misto;
+
+  if (misto > 0) {
+    while (pole[k-1] > cislo && k != 0) {
+      pole[k] = pole[k-1];
+      --k;
+    }
+
+    pole[k] = cislo;
+  }
+  else {
+    pole[misto] = cislo;
+  }
+}
+
+int filter_most_freq(int pole[], int pocet) {
+  unsigned char nejvic = 0;
+  int pomocPole[pocet];
+  unsigned char k = 0;
+  int soucet = 0;
+  unsigned char delitel = 0;
+
+  //seradi prvky ze zadaneho pole do pomocneho pole podle velikosti
+  
+  for (int i = 0; i < pocet; ++i) insertionSort(pole[i], pomocPole, i);
+
+  // v prvnim projiti najde nejpocetnejsi cislo
+  for(int i = 0; i < pocet; ++i)
+  {
+    if(pomocPole[i] != pomocPole[i+1])
+    {
+      ++k;
+      if(k > nejvic)
+      {
+        nejvic = k; // ulozi nejpocetnejsi cislo pro aktualni cas
+        soucet = pomocPole[i]; // ulozi hodnotu pole do promenne 'soucet'
+        delitel = 1;
+      }
+
+      else if(k == nejvic)
+      {
+        soucet = soucet + pomocPole[i];
+        ++delitel;
+      }
+      
+      k = 0; //vynuluje promenno 'k' pro pocitani dalsich totoznych cisel
+    }
+
+    else{++k;}
+  }
+
+  return soucet/delitel;
+}
+
+// submit acceleration constant, and final speed
+int accelerate (int fd, int  acceleration, int finalSpeed) {
+  int usleep();
+  int const time = 100;
+  int rest; // modulo
+  int i = 0; // 
+  int position = maestroGetPosition(fd, 0); // get first position
+
+  finalSpeed = finalSpeed - position; // the variation of finalSpeed and actual position
+  rest = finalSpeed % acceleration; //modulo of finalSpeed and acceleration
+
+  for(; i < finalSpeed;) {
+    i += acceleration; //increase acceleration parameter
+    maestroSetMotors(fd, position+i, position+i); // figure up the starting position and actual acceleration share 'i'
+    usleep(time); // time to wait
+  }
+
+  if (rest != 0) { // if modulo != 0 figure up the rest to the i and take off one more acceleration number
+    i += rest-acceleration; // it's nessesery to take off once acceleration number from last cyclus
+    maestroSetMotors(fd, position+i, position+i);
+  }
+  return 0;
+}
+
+int deccelerate (int fd, int  decceleration, int finalSpeed) {
+  int usleep();
+  int const time = 100;
+  int rest; // modulo
+  int i = 0; 
+  int position = maestroGetPosition(fd, 0); // get first position
+
+  finalSpeed = position - finalSpeed; // the variation of finalSpeed and actual position
+  rest = finalSpeed % decceleration; //modulo of finalSpeed and decceleration
+
+  for(; i < finalSpeed;) {
+    i += decceleration; //increase decceleration parameter
+    maestroSetMotors(fd, position-i, position-i); // figure up the starting position and actual decceleration share 'i'
+    usleep(time); // time to wait
+  }
+
+  if (rest != 0) { // if modulo != 0 figure up the rest to the i and take off one more decceleration number
+    i += rest-decceleration; // it's nessesery to take off once acceleration number from last cyclus
+    maestroSetMotors(fd, position-i, position-i);
+  }
+  return 0;
+}
+
+int readI2Cdata (int fd, unsigned char device) {
+  /*devices adresses
+   * Motor0 - 0xB0
+   * Motor1 - 0xC0
+   * IR_ref_sensor0 == 0x00
+   * IR_ref_sensor1 == 0x01
+   * IR_ref_sensor2 == 0x02
+   * Potenciometer0 == 0x03
+  */
+  int periodNum; // number of periods - first coming number from ATmega8
+  long int number; // the value read from device
+
+  if(fd < 0) {
+     printf("error opening I2C channel.\n");
+   }
+  
+  else {
+    wiringPiI2CWrite (fd, device); // device is identificator for every input on the ATmega8
+    periodNum = wiringPiI2CRead (fd);  // response to previous request from RPi - returned number of coming bytes in next loop
+    for (int i = periodNum; i>0; --i) { // value = number of period
+      number = (number | ((wiringPiI2CRead (fd) << ((periodNum-i)*8)))); // assembly the coming number
+    }
+  }
+  return number;
+}
+
+// read encoder - will run in thread therefor just one argument
+void *readEnc(void *fd){
+  int fides;
+  fides = *(int *)fd;
+  printf("jsi vul %i\n",fides);
+ 
+  for(;;){  
+   last = actual;
+    actual = readI2Cdata(fides, 0xB0); // make the variation of actual encoders value and last value
+    printf("jsi vul %i\n", actual);
+    usleep(20000); // sleep value 50Hz
+  }
+}
+
+// the function get actual speed of motors
+int getSpeed(){
+    return (actual - last)*50; //speed = count per second -> speed = count * frequency(50Hz)
+}
+  
+int main(int argc, char *argv[]) {
+  argc = argc; argv = argv;
+
+  // set virtual COM port pro Maestro
+  const char *device = "/dev/ttyAMA0"; // Linux
+  int fd = open(device, O_RDWR | O_NOCTTY);
+  int fd1 = wiringPiI2CSetup(dID); // setup the file descriptor I2C ID
+
+  struct termios options;  
+  tcgetattr(fd, &options);
+  cfsetispeed(&options, B9600);
+  cfsetospeed(&options, B9600);
+
+  options.c_cflag &= ~PARENB;
+  options.c_cflag &= ~CSTOPB;
+  options.c_cflag &= ~CSIZE;
+  options.c_cflag |= CS8;
+
+  // no flow control
+  options.c_cflag &= ~CRTSCTS;
+
+  options.c_cflag |= CREAD | CLOCAL; // turn on READ & ignore ctrl lines
+  options.c_iflag &= ~(IXON | IXOFF | IXANY); // turn off s/w flow ctrl
+
+  options.c_lflag &= ~(ICANON | ECHO | ECHOE | ISIG); // make raw
+  options.c_oflag &= ~OPOST; // make raw
+
+  // see: http://unixwiz.net/techtips/termios-vmin-vtime.html
+  options.c_cc[VMIN] = 0;
+  options.c_cc[VTIME] = 20;
+
+  if (tcsetattr(fd, TCSANOW, &options) < 0) {
+    perror("init_serialport: Couldn't set term attributes");
+    return -1;
+  }
+
+  if (fd == -1) {
+    perror(device);
+    return -1;
+  }
+ // variables
+
+ // pointers                                                                   
+ void *pointenc0; // pointer to enc0 variable
+ pthread_t Enc0; //thread ID poiters 
+ pointenc0 = &fd1;
+
+ printf("I'm creating new thread fd = %i\n", fd1);
+ //pthread_create(&Enc0, NULL, &readEnc, pointenc0);
+ 
+  //actual = readI2Cdata(fd1, 0xB0); // make the variation of actual encoders value and last value
+  printf("jsi vul %i\n",readI2Cdata(fd1, 0xB0));
+
+ // maestroSetMotors(fd, 6000, 6000);
+  if (close(fd))
+    return EXIT_FAILURE;
+  else
+    return EXIT_SUCCESS;
+}

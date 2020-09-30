@@ -1,0 +1,2602 @@
+EESchema Schematic File Version 5
+EELAYER 32 0
+EELAYER END
+$Descr A3 11693 16535 portrait
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 8250 3550
+Connection ~ 8250 3450
+Connection ~ 8250 3350
+Connection ~ 1000 13000
+Connection ~ 1000 12900
+Connection ~ 1000 12800
+Connection ~ 1000 13100
+Connection ~ 3600 13950
+Connection ~ 2650 14450
+Connection ~ 2100 6025
+Connection ~ 900  6025
+Connection ~ 9375 7825
+Connection ~ 8850 14425
+Connection ~ 9000 14425
+Connection ~ 9300 14425
+Connection ~ 9450 14425
+Connection ~ 9600 14425
+Connection ~ 9450 13750
+Connection ~ 9150 13650
+Connection ~ 8850 13550
+Connection ~ 8700 13550
+Connection ~ 9000 13650
+Connection ~ 9300 13750
+Connection ~ 9600 13850
+Connection ~ 3600 1600
+Connection ~ 3600 1925
+Connection ~ 4300 1600
+Connection ~ 4300 1925
+Connection ~ 2775 2100
+Connection ~ 2775 2425
+Connection ~ 3475 2100
+Connection ~ 3475 2425
+Connection ~ 2650 14350
+Connection ~ 2650 14250
+Connection ~ 2650 14150
+Connection ~ 2650 14050
+Connection ~ 3600 14050
+Connection ~ 3600 14150
+Connection ~ 3600 14250
+Connection ~ 3600 14350
+Connection ~ 925  14300
+Connection ~ 2475 2825
+Connection ~ 1975 2825
+Connection ~ 1600 1775
+Connection ~ 2475 3025
+Connection ~ 1600 3825
+Connection ~ 1125 3825
+Connection ~ 1175 1725
+Connection ~ 1025 3825
+Connection ~ 850  2825
+Connection ~ 2475 3825
+Connection ~ 4300 12750
+Connection ~ 3500 12750
+Connection ~ 4300 13200
+Connection ~ 4550 13200
+Connection ~ 4800 13200
+Connection ~ 5050 13200
+Connection ~ 5300 13200
+Connection ~ 5550 13200
+Connection ~ 5800 13200
+Connection ~ 6050 13200
+Connection ~ 6300 13200
+Connection ~ 6550 13200
+Connection ~ 6800 4900
+Connection ~ 6550 4900
+Connection ~ 6300 4900
+Connection ~ 6050 4900
+Connection ~ 5800 4900
+Connection ~ 5550 4900
+Connection ~ 5300 4900
+Connection ~ 3800 4900
+Connection ~ 4400 4075
+Connection ~ 5050 4900
+Connection ~ 5050 4075
+Connection ~ 5300 4075
+Connection ~ 5550 4075
+Connection ~ 7300 4075
+Connection ~ 7050 4075
+Connection ~ 5800 4075
+Connection ~ 6050 4075
+Connection ~ 6300 4075
+Connection ~ 6550 4075
+Connection ~ 6800 4075
+Connection ~ 7550 4900
+Connection ~ 7800 4900
+Connection ~ 7550 4075
+Connection ~ 3450 4900
+Connection ~ 10875 3225
+Connection ~ 10875 3425
+Connection ~ 8825 1950
+Connection ~ 1600 1275
+Connection ~ 1400 1725
+Connection ~ 1400 1475
+Connection ~ 6175 14825
+Connection ~ 5500 14825
+Connection ~ 5600 15000
+Connection ~ 5400 14650
+Connection ~ 6175 14650
+Connection ~ 1550 6575
+Connection ~ 9150 14425
+Connection ~ 3600 1275
+Connection ~ 2775 1775
+Connection ~ 3475 2750
+Connection ~ 4300 1275
+Connection ~ 9750 13850
+Connection ~ 925  3600
+Connection ~ 9200 8575
+Connection ~ 9375 8475
+Connection ~ 9550 8375
+Connection ~ 9175 9000
+Connection ~ 9175 8825
+Connection ~ 9975 8825
+Connection ~ 9975 10000
+Connection ~ 10250 10000
+Connection ~ 9550 7825
+Connection ~ 9975 9000
+Connection ~ 6800 13200
+Connection ~ 7050 4900
+Connection ~ 7300 4900
+NoConn ~ 5400 1225
+NoConn ~ 2525 1475
+NoConn ~ 2525 1375
+NoConn ~ 1800 14100
+NoConn ~ 1800 13900
+NoConn ~ 1000 14100
+NoConn ~ 1000 13900
+NoConn ~ 1800 14300
+NoConn ~ 6275 1225
+NoConn ~ 7200 1225
+NoConn ~ 8200 1225
+NoConn ~ 9200 1225
+NoConn ~ 10125 1225
+Wire Wire Line
+	750  6025 900  6025
+Wire Wire Line
+	825  15300 1000 15300
+Wire Wire Line
+	850  1725 850  2825
+Wire Wire Line
+	850  1725 1175 1725
+Wire Wire Line
+	850  2825 850  3825
+Wire Wire Line
+	850  3825 1025 3825
+Wire Wire Line
+	875  15400 1000 15400
+Wire Wire Line
+	875  15450 875  15400
+Wire Wire Line
+	900  6025 900  6075
+Wire Wire Line
+	900  6025 1150 6025
+Wire Wire Line
+	900  6475 900  6575
+Wire Wire Line
+	900  6575 1550 6575
+Wire Wire Line
+	900  13800 900  14000
+Wire Wire Line
+	900  14000 1000 14000
+Wire Wire Line
+	925  3400 925  3600
+Wire Wire Line
+	925  3400 1725 3400
+Wire Wire Line
+	925  3600 925  3925
+Wire Wire Line
+	925  14200 925  14300
+Wire Wire Line
+	925  14300 925  14375
+Wire Wire Line
+	1000 12700 1000 12800
+Wire Wire Line
+	1000 12700 1200 12700
+Wire Wire Line
+	1000 12800 1000 12900
+Wire Wire Line
+	1000 12900 1000 13000
+Wire Wire Line
+	1000 12900 1200 12900
+Wire Wire Line
+	1000 13000 1000 13100
+Wire Wire Line
+	1000 13000 1200 13000
+Wire Wire Line
+	1000 13100 1000 13150
+Wire Wire Line
+	1000 14200 925  14200
+Wire Wire Line
+	1000 14300 925  14300
+Wire Wire Line
+	1025 3825 1125 3825
+Wire Wire Line
+	1025 3925 1025 3825
+Wire Wire Line
+	1075 2750 1075 2825
+Wire Wire Line
+	1075 2825 850  2825
+Wire Wire Line
+	1125 3825 1125 3925
+Wire Wire Line
+	1125 3825 1600 3825
+Wire Wire Line
+	1175 1725 1400 1725
+Wire Wire Line
+	1175 1750 1175 1725
+Wire Wire Line
+	1175 5125 1250 5125
+Wire Wire Line
+	1175 5325 1250 5325
+Wire Wire Line
+	1200 12800 1000 12800
+Wire Wire Line
+	1200 13100 1000 13100
+Wire Wire Line
+	1250 5125 1250 5000
+Wire Wire Line
+	1250 5325 1250 5375
+Wire Wire Line
+	1275 2750 1275 2825
+Wire Wire Line
+	1275 2825 1475 2825
+Wire Wire Line
+	1400 1225 1400 1475
+Wire Wire Line
+	1400 1475 1400 1725
+Wire Wire Line
+	1400 1475 1625 1475
+Wire Wire Line
+	1400 1725 1400 1975
+Wire Wire Line
+	1400 1975 1625 1975
+Wire Wire Line
+	1400 3250 1725 3250
+Wire Wire Line
+	1400 3925 1400 3250
+Wire Wire Line
+	1425 3600 1725 3600
+Wire Wire Line
+	1550 6325 1550 6575
+Wire Wire Line
+	1550 6575 2100 6575
+Wire Wire Line
+	1600 1225 1600 1275
+Wire Wire Line
+	1600 1275 1600 1775
+Wire Wire Line
+	1600 1275 1625 1275
+Wire Wire Line
+	1600 1775 1600 2175
+Wire Wire Line
+	1600 1775 1625 1775
+Wire Wire Line
+	1600 2175 2475 2175
+Wire Wire Line
+	1600 3825 1600 3925
+Wire Wire Line
+	1600 3825 2475 3825
+Wire Wire Line
+	1675 10750 2125 10750
+Wire Wire Line
+	1675 10925 1675 10750
+Wire Wire Line
+	1675 11025 1750 11025
+Wire Wire Line
+	1675 11125 1800 11125
+Wire Wire Line
+	1675 11225 1800 11225
+Wire Wire Line
+	1675 11325 1750 11325
+Wire Wire Line
+	1675 11425 1675 11625
+Wire Wire Line
+	1675 11625 2125 11625
+Wire Wire Line
+	1750 10925 2125 10925
+Wire Wire Line
+	1750 11025 1750 10925
+Wire Wire Line
+	1750 11325 1750 11450
+Wire Wire Line
+	1750 11450 2125 11450
+Wire Wire Line
+	1800 11100 2125 11100
+Wire Wire Line
+	1800 11125 1800 11100
+Wire Wire Line
+	1800 11225 1800 11275
+Wire Wire Line
+	1800 11275 2125 11275
+Wire Wire Line
+	1800 15400 2025 15400
+Wire Wire Line
+	1950 6025 2100 6025
+Wire Wire Line
+	1975 2550 1975 2825
+Wire Wire Line
+	1975 2550 2175 2550
+Wire Wire Line
+	1975 2825 1975 3025
+Wire Wire Line
+	2075 2825 1975 2825
+Wire Wire Line
+	2100 6025 2100 6075
+Wire Wire Line
+	2100 6025 2200 6025
+Wire Wire Line
+	2100 6575 2100 6475
+Wire Wire Line
+	2250 3600 2475 3600
+Wire Wire Line
+	2475 2175 2475 2300
+Wire Wire Line
+	2475 2700 2475 2825
+Wire Wire Line
+	2475 2825 2475 3025
+Wire Wire Line
+	2475 3025 2475 3400
+Wire Wire Line
+	2475 3400 2250 3400
+Wire Wire Line
+	2475 3600 2475 3825
+Wire Wire Line
+	2475 3825 2475 4200
+Wire Wire Line
+	2525 1275 3600 1275
+Wire Wire Line
+	2575 9350 2625 9350
+Wire Wire Line
+	2575 9525 2625 9525
+Wire Wire Line
+	2575 9700 2625 9700
+Wire Wire Line
+	2575 10050 2625 10050
+Wire Wire Line
+	2575 10225 2625 10225
+Wire Wire Line
+	2650 13950 2650 14050
+Wire Wire Line
+	2650 14050 2650 14150
+Wire Wire Line
+	2650 14150 2650 14250
+Wire Wire Line
+	2650 14250 2650 14350
+Wire Wire Line
+	2650 14350 2650 14450
+Wire Wire Line
+	2650 14450 2650 14550
+Wire Wire Line
+	2775 1775 2525 1775
+Wire Wire Line
+	2775 1775 2775 2100
+Wire Wire Line
+	2775 2100 2775 2425
+Wire Wire Line
+	2775 2425 2775 2750
+Wire Wire Line
+	3200 4900 3450 4900
+Wire Wire Line
+	3300 5200 3125 5200
+Wire Wire Line
+	3450 4200 3450 3900
+Wire Wire Line
+	3450 4900 3450 4600
+Wire Wire Line
+	3450 4900 3800 4900
+Wire Wire Line
+	3475 1775 3475 2100
+Wire Wire Line
+	3475 2100 3475 2425
+Wire Wire Line
+	3475 2425 3475 2750
+Wire Wire Line
+	3475 2750 3575 2750
+Wire Wire Line
+	3500 12675 3500 12750
+Wire Wire Line
+	3500 12750 3500 12800
+Wire Wire Line
+	3500 13200 4300 13200
+Wire Wire Line
+	3600 1275 3600 1600
+Wire Wire Line
+	3600 1600 3600 1925
+Wire Wire Line
+	3600 1925 3600 2250
+Wire Wire Line
+	3600 13825 3600 13950
+Wire Wire Line
+	3600 13950 3600 14050
+Wire Wire Line
+	3600 14050 3600 14150
+Wire Wire Line
+	3600 14150 3600 14250
+Wire Wire Line
+	3600 14250 3600 14350
+Wire Wire Line
+	3600 14350 3600 14450
+Wire Wire Line
+	3625 12750 3500 12750
+Wire Wire Line
+	3800 4900 3800 5200
+Wire Wire Line
+	3800 4900 4250 4900
+Wire Wire Line
+	4175 12750 4300 12750
+Wire Wire Line
+	4250 4075 4400 4075
+Wire Wire Line
+	4250 4150 4250 4075
+Wire Wire Line
+	4250 4900 4250 4650
+Wire Wire Line
+	4300 1275 4300 1600
+Wire Wire Line
+	4300 1275 4400 1275
+Wire Wire Line
+	4300 1600 4300 1925
+Wire Wire Line
+	4300 1925 4300 2250
+Wire Wire Line
+	4300 12675 4300 12750
+Wire Wire Line
+	4300 12750 4300 12800
+Wire Wire Line
+	4300 13200 4550 13200
+Wire Wire Line
+	4400 3900 4400 4075
+Wire Wire Line
+	4400 4075 4550 4075
+Wire Wire Line
+	4550 4675 4550 4900
+Wire Wire Line
+	4550 4900 5050 4900
+Wire Wire Line
+	4550 13200 4550 12675
+Wire Wire Line
+	4550 13200 4800 13200
+Wire Wire Line
+	4800 13200 4800 12675
+Wire Wire Line
+	4800 13200 5050 13200
+Wire Wire Line
+	5050 3900 5050 4075
+Wire Wire Line
+	5050 4075 5050 4500
+Wire Wire Line
+	5050 4075 5300 4075
+Wire Wire Line
+	5050 4900 5300 4900
+Wire Wire Line
+	5050 13200 5050 12675
+Wire Wire Line
+	5050 13200 5300 13200
+Wire Wire Line
+	5100 14850 5300 14850
+Wire Wire Line
+	5100 14950 5100 14850
+Wire Wire Line
+	5300 4075 5300 4500
+Wire Wire Line
+	5300 4075 5550 4075
+Wire Wire Line
+	5300 4900 5300 5200
+Wire Wire Line
+	5300 4900 5550 4900
+Wire Wire Line
+	5300 13200 5300 12675
+Wire Wire Line
+	5300 13200 5550 13200
+Wire Wire Line
+	5300 14850 5300 15000
+Wire Wire Line
+	5400 14600 5400 14650
+Wire Wire Line
+	5400 14650 5400 15000
+Wire Wire Line
+	5500 1225 5500 1450
+Wire Wire Line
+	5500 14600 5500 14825
+Wire Wire Line
+	5500 14825 5500 15000
+Wire Wire Line
+	5550 4075 5550 4500
+Wire Wire Line
+	5550 4075 5800 4075
+Wire Wire Line
+	5550 4900 5550 5200
+Wire Wire Line
+	5550 4900 5800 4900
+Wire Wire Line
+	5550 13200 5550 12675
+Wire Wire Line
+	5550 13200 5800 13200
+Wire Wire Line
+	5600 1350 5600 1225
+Wire Wire Line
+	5600 15000 5600 14600
+Wire Wire Line
+	5625 1350 5600 1350
+Wire Wire Line
+	5675 14650 5400 14650
+Wire Wire Line
+	5675 14825 5500 14825
+Wire Wire Line
+	5675 15000 5600 15000
+Wire Wire Line
+	5800 4075 5800 4500
+Wire Wire Line
+	5800 4075 6050 4075
+Wire Wire Line
+	5800 4900 5800 5200
+Wire Wire Line
+	5800 4900 6050 4900
+Wire Wire Line
+	5800 13200 5800 12675
+Wire Wire Line
+	5800 13200 6050 13200
+Wire Wire Line
+	6050 4075 6050 4500
+Wire Wire Line
+	6050 4075 6300 4075
+Wire Wire Line
+	6050 4900 6050 5200
+Wire Wire Line
+	6050 4900 6300 4900
+Wire Wire Line
+	6050 13200 6050 12675
+Wire Wire Line
+	6050 13200 6300 13200
+Wire Wire Line
+	6175 14500 6175 14650
+Wire Wire Line
+	6175 14650 6175 14825
+Wire Wire Line
+	6175 14825 6175 15000
+Wire Wire Line
+	6300 4075 6300 4500
+Wire Wire Line
+	6300 4075 6550 4075
+Wire Wire Line
+	6300 4900 6300 5200
+Wire Wire Line
+	6300 4900 6550 4900
+Wire Wire Line
+	6300 13200 6300 12675
+Wire Wire Line
+	6300 13200 6550 13200
+Wire Wire Line
+	6375 1225 6375 1450
+Wire Wire Line
+	6475 1350 6475 1225
+Wire Wire Line
+	6500 1350 6475 1350
+Wire Wire Line
+	6550 4075 6550 4500
+Wire Wire Line
+	6550 4075 6800 4075
+Wire Wire Line
+	6550 4900 6550 5200
+Wire Wire Line
+	6550 4900 6800 4900
+Wire Wire Line
+	6550 13200 6550 12675
+Wire Wire Line
+	6550 13200 6800 13200
+Wire Wire Line
+	6800 4075 6800 4500
+Wire Wire Line
+	6800 4075 7050 4075
+Wire Wire Line
+	6800 4900 6800 5200
+Wire Wire Line
+	6800 4900 7050 4900
+Wire Wire Line
+	6800 13200 6800 12675
+Wire Wire Line
+	7050 4075 7050 4500
+Wire Wire Line
+	7050 4075 7300 4075
+Wire Wire Line
+	7050 4900 7050 5200
+Wire Wire Line
+	7300 1225 7300 1450
+Wire Wire Line
+	7300 4075 7300 4500
+Wire Wire Line
+	7300 4075 7550 4075
+Wire Wire Line
+	7300 4900 7550 4900
+Wire Wire Line
+	7300 5200 7300 4900
+Wire Wire Line
+	7400 1350 7400 1225
+Wire Wire Line
+	7425 1350 7400 1350
+Wire Wire Line
+	7550 4075 7550 4500
+Wire Wire Line
+	7550 4075 7800 4075
+Wire Wire Line
+	7550 4900 7550 5200
+Wire Wire Line
+	7550 4900 7800 4900
+Wire Wire Line
+	7800 4075 7800 4500
+Wire Wire Line
+	7800 4900 7925 4900
+Wire Wire Line
+	8250 3250 8250 3350
+Wire Wire Line
+	8250 3350 8250 3450
+Wire Wire Line
+	8250 3450 8250 3550
+Wire Wire Line
+	8250 3550 8250 3675
+Wire Wire Line
+	8300 1225 8300 1450
+Wire Wire Line
+	8400 1350 8400 1225
+Wire Wire Line
+	8425 1350 8400 1350
+Wire Wire Line
+	8525 13550 8700 13550
+Wire Wire Line
+	8525 13650 9000 13650
+Wire Wire Line
+	8525 13750 9300 13750
+Wire Wire Line
+	8525 13850 9600 13850
+Wire Wire Line
+	8625 8300 8775 8300
+Wire Wire Line
+	8625 8475 9375 8475
+Wire Wire Line
+	8625 8650 8775 8650
+Wire Wire Line
+	8625 8825 9175 8825
+Wire Wire Line
+	8700 1950 8825 1950
+Wire Wire Line
+	8700 13550 8700 13975
+Wire Wire Line
+	8700 13550 8850 13550
+Wire Wire Line
+	8700 14375 8700 14425
+Wire Wire Line
+	8700 14425 8850 14425
+Wire Wire Line
+	8775 8300 8775 8375
+Wire Wire Line
+	8775 8375 9550 8375
+Wire Wire Line
+	8775 8575 9200 8575
+Wire Wire Line
+	8775 8650 8775 8575
+Wire Wire Line
+	8825 1950 8875 1950
+Wire Wire Line
+	8825 2100 8825 1950
+Wire Wire Line
+	8850 13550 8850 13925
+Wire Wire Line
+	8850 13550 9750 13550
+Wire Wire Line
+	8850 14425 9000 14425
+Wire Wire Line
+	9000 13650 9000 13975
+Wire Wire Line
+	9000 13650 9150 13650
+Wire Wire Line
+	9000 14425 9000 14375
+Wire Wire Line
+	9000 14425 9150 14425
+Wire Wire Line
+	9150 13650 9150 13925
+Wire Wire Line
+	9150 13650 9750 13650
+Wire Wire Line
+	9150 14425 9300 14425
+Wire Wire Line
+	9175 8825 9175 9000
+Wire Wire Line
+	9175 8825 9375 8825
+Wire Wire Line
+	9175 9000 9175 9275
+Wire Wire Line
+	9175 9675 9175 10000
+Wire Wire Line
+	9175 10000 9975 10000
+Wire Wire Line
+	9200 7825 9375 7825
+Wire Wire Line
+	9200 8325 9200 8575
+Wire Wire Line
+	9200 8575 10250 8575
+Wire Wire Line
+	9300 1225 9300 1450
+Wire Wire Line
+	9300 13750 9300 13975
+Wire Wire Line
+	9300 13750 9450 13750
+Wire Wire Line
+	9300 14425 9300 14375
+Wire Wire Line
+	9300 14425 9450 14425
+Wire Wire Line
+	9375 7825 9550 7825
+Wire Wire Line
+	9375 8325 9375 8475
+Wire Wire Line
+	9375 8475 10250 8475
+Wire Wire Line
+	9400 1350 9400 1225
+Wire Wire Line
+	9400 1950 9375 1950
+Wire Wire Line
+	9400 2100 9400 1950
+Wire Wire Line
+	9425 1350 9400 1350
+Wire Wire Line
+	9450 9000 9175 9000
+Wire Wire Line
+	9450 13750 9450 13925
+Wire Wire Line
+	9450 13750 9750 13750
+Wire Wire Line
+	9450 14425 9600 14425
+Wire Wire Line
+	9525 6200 9600 6200
+Wire Wire Line
+	9525 6375 9600 6375
+Wire Wire Line
+	9525 6550 9600 6550
+Wire Wire Line
+	9550 7825 9550 7750
+Wire Wire Line
+	9550 7825 9975 7825
+Wire Wire Line
+	9550 8325 9550 8375
+Wire Wire Line
+	9550 8375 10250 8375
+Wire Wire Line
+	9600 13850 9600 13975
+Wire Wire Line
+	9600 13850 9750 13850
+Wire Wire Line
+	9600 14425 9600 14375
+Wire Wire Line
+	9600 14425 9750 14425
+Wire Wire Line
+	9750 13850 9750 13925
+Wire Wire Line
+	9875 8825 9975 8825
+Wire Wire Line
+	9975 2425 10175 2425
+Wire Wire Line
+	9975 2625 10100 2625
+Wire Wire Line
+	9975 2825 10100 2825
+Wire Wire Line
+	9975 3025 10175 3025
+Wire Wire Line
+	9975 8325 9975 8825
+Wire Wire Line
+	9975 8825 9975 9000
+Wire Wire Line
+	9975 9000 9850 9000
+Wire Wire Line
+	9975 10000 10250 10000
+Wire Wire Line
+	10100 2625 10100 2675
+Wire Wire Line
+	10100 2675 10275 2675
+Wire Wire Line
+	10100 2775 10275 2775
+Wire Wire Line
+	10100 2825 10100 2775
+Wire Wire Line
+	10175 2425 10175 2575
+Wire Wire Line
+	10175 2575 10275 2575
+Wire Wire Line
+	10175 2875 10275 2875
+Wire Wire Line
+	10175 3025 10175 2875
+Wire Wire Line
+	10225 1225 10225 1450
+Wire Wire Line
+	10250 8675 10250 10000
+Wire Wire Line
+	10250 10000 10250 10075
+Wire Wire Line
+	10325 1350 10325 1225
+Wire Wire Line
+	10350 1350 10325 1350
+Wire Wire Line
+	10875 3150 10875 3225
+Wire Wire Line
+	10875 3225 10875 3425
+Wire Wire Line
+	10875 3425 10875 3625
+Text GLabel 1000 15000 0    47   Input ~ 0
+MTR0
+Text GLabel 1000 15100 0    47   Input ~ 0
+MTR1
+Text GLabel 1000 15200 0    47   Input ~ 0
+Light
+Text GLabel 1600 12700 2    47   Input ~ 0
+SW0
+Text GLabel 1600 12800 2    47   Input ~ 0
+SW1
+Text GLabel 1600 12900 2    47   Input ~ 0
+SW4
+Text GLabel 1600 13000 2    47   Input ~ 0
+SW2
+Text GLabel 1600 13100 2    47   Input ~ 0
+SW3
+Text GLabel 1800 14000 2    47   Input ~ 0
+DT_PDI
+Text GLabel 1800 14200 2    47   Input ~ 0
+CLK_PDI
+Text GLabel 1800 15000 2    47   Input ~ 0
+INT_B0
+Text GLabel 1800 15100 2    47   Input ~ 0
+INT_A0
+Text GLabel 1800 15200 2    47   Input ~ 0
+INT_B1
+Text GLabel 1800 15300 2    47   Input ~ 0
+INT_A1
+Text GLabel 2125 9875 0    47   Input ~ 0
+speed_up
+Text GLabel 2175 9350 0    47   Input ~ 0
+sens1int
+Text GLabel 2175 9525 0    47   Input ~ 0
+sens0int
+Text GLabel 2175 9700 0    47   Input ~ 0
+sens3int
+Text GLabel 2175 10050 0    47   Input ~ 0
+sens2int
+Text GLabel 2175 10225 0    47   Input ~ 0
+sens4int
+Text GLabel 2525 1875 2    47   Input ~ 0
+SW0
+Text GLabel 2525 1975 2    47   Input ~ 0
+SW1
+Text GLabel 3125 5200 0    60   Input ~ 0
+DT_PDI
+Text GLabel 3200 4900 0    60   Input ~ 0
+CLK_PDI
+Text GLabel 5100 1225 3    47   Input ~ 0
+SCL0
+Text GLabel 5200 1225 3    47   Input ~ 0
+SDA0
+Text GLabel 5300 1225 3    47   Input ~ 0
+sens0int
+Text GLabel 5400 14600 1    47   Input ~ 0
+INT0
+Text GLabel 5500 14600 1    47   Input ~ 0
+SDA0
+Text GLabel 5600 14600 1    47   Input ~ 0
+SCL0
+Text GLabel 5975 1225 3    47   Input ~ 0
+SCL0
+Text GLabel 6075 1225 3    47   Input ~ 0
+SDA0
+Text GLabel 6175 1225 3    47   Input ~ 0
+sens1int
+Text GLabel 6900 1225 3    47   Input ~ 0
+SCL0
+Text GLabel 7000 1225 3    47   Input ~ 0
+SDA0
+Text GLabel 7100 1225 3    47   Input ~ 0
+sens2int
+Text GLabel 7900 1225 3    47   Input ~ 0
+SCL0
+Text GLabel 8000 1225 3    47   Input ~ 0
+SDA0
+Text GLabel 8100 1225 3    47   Input ~ 0
+sens3int
+Text GLabel 8250 2775 0    47   Input ~ 0
+SDA0
+Text GLabel 8250 2875 0    47   Input ~ 0
+SCL0
+Text GLabel 8525 13550 0    47   Input ~ 0
+ADC_3
+Text GLabel 8525 13650 0    47   Input ~ 0
+ADC_2
+Text GLabel 8525 13750 0    47   Input ~ 0
+ADC_1
+Text GLabel 8525 13850 0    47   Input ~ 0
+ADC_0
+Text GLabel 8625 7075 2    47   Input ~ 0
+ADC_0
+Text GLabel 8625 7250 2    47   Input ~ 0
+ADC_1
+Text GLabel 8625 7425 2    47   Input ~ 0
+ADC_2
+Text GLabel 8625 7600 2    47   Input ~ 0
+ADC_3
+Text GLabel 8625 9000 2    47   Input ~ 0
+INT0
+Text GLabel 8625 9700 2    47   Input ~ 0
+SDA0
+Text GLabel 8625 9875 2    47   Input ~ 0
+SCL0
+Text GLabel 8625 10050 2    47   Input ~ 0
+INT_B0
+Text GLabel 8625 10225 2    47   Input ~ 0
+INT_A0
+Text GLabel 8625 10400 2    47   Input ~ 0
+MTR0
+Text GLabel 8625 11450 2    47   Input ~ 0
+INT_B1
+Text GLabel 8625 11625 2    47   Input ~ 0
+MTR1
+Text GLabel 8625 11800 2    47   Input ~ 0
+INT_A1
+Text GLabel 8900 1225 3    47   Input ~ 0
+SCL0
+Text GLabel 9000 1225 3    47   Input ~ 0
+SDA0
+Text GLabel 9100 1225 3    47   Input ~ 0
+sens4int
+Text GLabel 9125 10575 2    47   Input ~ 0
+RST
+Text GLabel 9400 1950 2    47   Input ~ 0
+RST
+Text GLabel 9600 6200 2    47   Input ~ 0
+SW3
+Text GLabel 9600 6375 2    47   Input ~ 0
+SW2
+Text GLabel 9600 6550 2    47   Input ~ 0
+SW4
+Text GLabel 9825 1225 3    47   Input ~ 0
+speed_up
+Text GLabel 9925 1225 3    47   Input ~ 0
+SCL0
+Text GLabel 9975 3825 2    47   Input ~ 0
+Light
+Text GLabel 10025 1225 3    47   Input ~ 0
+SDA0
+$Comp
+L UNICON_board-rescue:+3V3 #PWR4
+U 1 1 56ACEA6A
+P 900 13800
+F 0 "#PWR4" H 900 13750 40  0001 C CNN
+F 1 "+3V3" H 1000 13900 40  0000 C CNN
+F 2 "" H 900 13800 60  0000 C CNN
+F 3 "" H 900 13800 60  0000 C CNN
+	1    900  13800
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:+3V3 #PWR10
+U 1 1 56ACCD2E
+P 2025 15400
+F 0 "#PWR10" H 2025 15350 40  0001 C CNN
+F 1 "+3V3" V 1975 15575 40  0000 C CNN
+F 2 "" H 2025 15400 60  0000 C CNN
+F 3 "" H 2025 15400 60  0000 C CNN
+	1    2025 15400
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:+3V3 #PWR11
+U 1 1 56ACAFF1
+P 2200 6025
+F 0 "#PWR11" H 2200 5975 40  0001 C CNN
+F 1 "+3V3" V 2150 6175 40  0000 C CNN
+F 2 "" H 2200 6025 60  0000 C CNN
+F 3 "" H 2200 6025 60  0000 C CNN
+	1    2200 6025
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:+6V #PWR15
+U 1 1 56AE1FBA
+P 3575 2750
+F 0 "#PWR15" H 3550 2700 60  0001 C CNN
+F 1 "+6V" V 3525 2900 40  0000 C CNN
+F 2 "" H 3575 2750 60  0000 C CNN
+F 3 "" H 3575 2750 60  0000 C CNN
+	1    3575 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:+6V #PWR16
+U 1 1 56AF646B
+P 3600 13825
+F 0 "#PWR16" H 3575 13775 60  0001 C CNN
+F 1 "+6V" H 3600 13975 40  0000 C CNN
+F 2 "" H 3600 13825 60  0000 C CNN
+F 3 "" H 3600 13825 60  0000 C CNN
+	1    3600 13825
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:+3V3 #PWR19
+U 1 1 56AD27B1
+P 4400 3900
+F 0 "#PWR19" H 4400 3850 40  0001 C CNN
+F 1 "+3V3" H 4450 4050 40  0000 C CNN
+F 2 "" H 4400 3900 60  0000 C CNN
+F 3 "" H 4400 3900 60  0000 C CNN
+	1    4400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:+3V3 #PWR24
+U 1 1 56ACAE9B
+P 6175 14500
+F 0 "#PWR24" H 6175 14450 40  0001 C CNN
+F 1 "+3V3" H 6225 14625 40  0000 C CNN
+F 2 "" H 6175 14500 60  0000 C CNN
+F 3 "" H 6175 14500 60  0000 C CNN
+	1    6175 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:+3V3 #PWR33
+U 1 1 56AD42B6
+P 8625 4900
+F 0 "#PWR33" H 8625 4850 40  0001 C CNN
+F 1 "+3V3" V 8575 5050 40  0000 C CNN
+F 2 "" H 8625 4900 60  0000 C CNN
+F 3 "" H 8625 4900 60  0000 C CNN
+	1    8625 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:+3V3 #PWR34
+U 1 1 56ADAF78
+P 8700 1950
+F 0 "#PWR34" H 8700 1900 40  0001 C CNN
+F 1 "+3V3" V 8650 2100 40  0000 C CNN
+F 2 "" H 8700 1950 60  0000 C CNN
+F 3 "" H 8700 1950 60  0000 C CNN
+	1    8700 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:+3V3 #PWR38
+U 1 1 56ADB8CB
+P 9550 7750
+F 0 "#PWR38" H 9550 7700 40  0001 C CNN
+F 1 "+3V3" H 9600 7900 40  0000 C CNN
+F 2 "" H 9550 7750 60  0000 C CNN
+F 3 "" H 9550 7750 60  0000 C CNN
+	1    9550 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR1
+U 1 1 56AF0586
+P 750 6025
+F 0 "#PWR1" H 725 5975 60  0001 C CNN
+F 1 "+5V" V 800 6175 40  0000 C CNN
+F 2 "" H 750 6025 60  0000 C CNN
+F 3 "" H 750 6025 60  0000 C CNN
+	1    750  6025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR2
+U 1 1 56AFD4AF
+P 825 15300
+F 0 "#PWR2" H 800 15250 60  0001 C CNN
+F 1 "+5V" V 875 15450 40  0000 C CNN
+F 2 "" H 825 15300 60  0000 C CNN
+F 3 "" H 825 15300 60  0000 C CNN
+	1    825  15300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR7
+U 1 1 56AE4D08
+P 1250 5000
+F 0 "#PWR7" H 1225 4950 60  0001 C CNN
+F 1 "+5V" H 1275 5125 40  0000 C CNN
+F 2 "" H 1250 5000 60  0000 C CNN
+F 3 "" H 1250 5000 60  0000 C CNN
+	1    1250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR18
+U 1 1 56AEF69B
+P 4400 1275
+F 0 "#PWR18" H 4375 1225 60  0001 C CNN
+F 1 "+5V" V 4350 1400 40  0000 C CNN
+F 2 "" H 4400 1275 60  0000 C CNN
+F 3 "" H 4400 1275 60  0000 C CNN
+	1    4400 1275
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR22
+U 1 1 56AE682E
+P 5500 1450
+F 0 "#PWR22" H 5475 1400 60  0001 C CNN
+F 1 "+5V" H 5475 1575 40  0000 C CNN
+F 2 "" H 5500 1450 60  0000 C CNN
+F 3 "" H 5500 1450 60  0000 C CNN
+	1    5500 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR25
+U 1 1 56AE865B
+P 6375 1450
+F 0 "#PWR25" H 6350 1400 60  0001 C CNN
+F 1 "+5V" H 6350 1575 40  0000 C CNN
+F 2 "" H 6375 1450 60  0000 C CNN
+F 3 "" H 6375 1450 60  0000 C CNN
+	1    6375 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR28
+U 1 1 56AE9572
+P 7300 1450
+F 0 "#PWR28" H 7275 1400 60  0001 C CNN
+F 1 "+5V" H 7275 1575 40  0000 C CNN
+F 2 "" H 7300 1450 60  0000 C CNN
+F 3 "" H 7300 1450 60  0000 C CNN
+	1    7300 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR31
+U 1 1 56AE96B5
+P 8300 1450
+F 0 "#PWR31" H 8275 1400 60  0001 C CNN
+F 1 "+5V" H 8275 1575 40  0000 C CNN
+F 2 "" H 8300 1450 60  0000 C CNN
+F 3 "" H 8300 1450 60  0000 C CNN
+	1    8300 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR36
+U 1 1 56AE9BA0
+P 9300 1450
+F 0 "#PWR36" H 9275 1400 60  0001 C CNN
+F 1 "+5V" H 9275 1575 40  0000 C CNN
+F 2 "" H 9300 1450 60  0000 C CNN
+F 3 "" H 9300 1450 60  0000 C CNN
+	1    9300 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR39
+U 1 1 56AE9D4B
+P 10225 1450
+F 0 "#PWR39" H 10200 1400 60  0001 C CNN
+F 1 "+5V" H 10200 1575 40  0000 C CNN
+F 2 "" H 10225 1450 60  0000 C CNN
+F 3 "" H 10225 1450 60  0000 C CNN
+	1    10225 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR42
+U 1 1 56AE8885
+P 10875 3150
+F 0 "#PWR42" H 10850 3100 60  0001 C CNN
+F 1 "+5V" H 10850 3275 40  0000 C CNN
+F 2 "" H 10875 3150 60  0000 C CNN
+F 3 "" H 10875 3150 60  0000 C CNN
+	1    10875 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR3
+U 1 1 56AFA242
+P 875 15550
+F 0 "#PWR3" H 925 15600 60  0001 C CNN
+F 1 "GND" H 875 15500 40  0000 C CNN
+F 2 "" H 875 15550 60  0000 C CNN
+F 3 "" H 875 15550 60  0000 C CNN
+	1    875  15550
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR5
+U 1 1 56AF3E22
+P 925 14475
+F 0 "#PWR5" H 975 14525 60  0001 C CNN
+F 1 "GND" H 925 14425 40  0000 C CNN
+F 2 "" H 925 14475 60  0000 C CNN
+F 3 "" H 925 14475 60  0000 C CNN
+	1    925  14475
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR6
+U 1 1 56AF213D
+P 1000 13250
+F 0 "#PWR6" H 1050 13300 60  0001 C CNN
+F 1 "GND" H 1000 13200 40  0000 C CNN
+F 2 "" H 1000 13250 60  0000 C CNN
+F 3 "" H 1000 13250 60  0000 C CNN
+	1    1000 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR8
+U 1 1 56AE6E10
+P 1250 5475
+F 0 "#PWR8" H 1300 5525 60  0001 C CNN
+F 1 "GND" H 1250 5425 40  0000 C CNN
+F 2 "" H 1250 5475 60  0000 C CNN
+F 3 "" H 1250 5475 60  0000 C CNN
+	1    1250 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR9
+U 1 1 56AEF6D9
+P 1550 6675
+F 0 "#PWR9" H 1600 6725 60  0001 C CNN
+F 1 "GND" H 1550 6625 40  0000 C CNN
+F 2 "" H 1550 6675 60  0000 C CNN
+F 3 "" H 1550 6675 60  0000 C CNN
+	1    1550 6675
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR12
+U 1 1 56AE2A5D
+P 2475 4300
+F 0 "#PWR12" H 2525 4350 60  0001 C CNN
+F 1 "GND" H 2475 4250 40  0000 C CNN
+F 2 "" H 2475 4300 60  0000 C CNN
+F 3 "" H 2475 4300 60  0000 C CNN
+	1    2475 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR13
+U 1 1 56AF4F3F
+P 2650 14650
+F 0 "#PWR13" H 2700 14700 60  0001 C CNN
+F 1 "GND" H 2650 14600 40  0000 C CNN
+F 2 "" H 2650 14650 60  0000 C CNN
+F 3 "" H 2650 14650 60  0000 C CNN
+	1    2650 14650
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR14
+U 1 1 56AE9E86
+P 3450 3800
+F 0 "#PWR14" H 3500 3850 60  0001 C CNN
+F 1 "GND" H 3450 3750 40  0000 C CNN
+F 2 "" H 3450 3800 60  0000 C CNN
+F 3 "" H 3450 3800 60  0000 C CNN
+	1    3450 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR17
+U 1 1 56AE9FC9
+P 3800 3800
+F 0 "#PWR17" H 3850 3850 60  0001 C CNN
+F 1 "GND" H 3800 3750 40  0000 C CNN
+F 2 "" H 3800 3800 60  0000 C CNN
+F 3 "" H 3800 3800 60  0000 C CNN
+	1    3800 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR20
+U 1 1 56AEA10C
+P 5050 3800
+F 0 "#PWR20" H 5100 3850 60  0001 C CNN
+F 1 "GND" H 5050 3750 40  0000 C CNN
+F 2 "" H 5050 3800 60  0000 C CNN
+F 3 "" H 5050 3800 60  0000 C CNN
+	1    5050 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR21
+U 1 1 56B0136B
+P 5100 15050
+F 0 "#PWR21" H 5150 15100 60  0001 C CNN
+F 1 "GND" H 5100 15000 40  0000 C CNN
+F 2 "" H 5100 15050 60  0000 C CNN
+F 3 "" H 5100 15050 60  0000 C CNN
+	1    5100 15050
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR23
+U 1 1 56AF9250
+P 5725 1350
+F 0 "#PWR23" H 5775 1400 60  0001 C CNN
+F 1 "GND" H 5725 1300 40  0000 C CNN
+F 2 "" H 5725 1350 60  0000 C CNN
+F 3 "" H 5725 1350 60  0000 C CNN
+	1    5725 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR26
+U 1 1 56AF9F67
+P 6600 1350
+F 0 "#PWR26" H 6650 1400 60  0001 C CNN
+F 1 "GND" H 6600 1300 40  0000 C CNN
+F 2 "" H 6600 1350 60  0000 C CNN
+F 3 "" H 6600 1350 60  0000 C CNN
+	1    6600 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR27
+U 1 1 56B03600
+P 6800 13300
+F 0 "#PWR27" H 6850 13350 60  0001 C CNN
+F 1 "GND" H 6800 13250 40  0000 C CNN
+F 2 "" H 6800 13300 60  0000 C CNN
+F 3 "" H 6800 13300 60  0000 C CNN
+	1    6800 13300
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR29
+U 1 1 56AFA0AA
+P 7525 1350
+F 0 "#PWR29" H 7575 1400 60  0001 C CNN
+F 1 "GND" H 7525 1300 40  0000 C CNN
+F 2 "" H 7525 1350 60  0000 C CNN
+F 3 "" H 7525 1350 60  0000 C CNN
+	1    7525 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR30
+U 1 1 56AEAAD9
+P 8250 3775
+F 0 "#PWR30" H 8300 3825 60  0001 C CNN
+F 1 "GND" H 8250 3725 40  0000 C CNN
+F 2 "" H 8250 3775 60  0000 C CNN
+F 3 "" H 8250 3775 60  0000 C CNN
+	1    8250 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR32
+U 1 1 56AFA38D
+P 8525 1350
+F 0 "#PWR32" H 8575 1400 60  0001 C CNN
+F 1 "GND" H 8525 1300 40  0000 C CNN
+F 2 "" H 8525 1350 60  0000 C CNN
+F 3 "" H 8525 1350 60  0000 C CNN
+	1    8525 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR35
+U 1 1 56B05A35
+P 9150 14525
+F 0 "#PWR35" H 9200 14575 60  0001 C CNN
+F 1 "GND" H 9150 14475 40  0000 C CNN
+F 2 "" H 9150 14525 60  0000 C CNN
+F 3 "" H 9150 14525 60  0000 C CNN
+	1    9150 14525
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR37
+U 1 1 56AFA7A8
+P 9525 1350
+F 0 "#PWR37" H 9575 1400 60  0001 C CNN
+F 1 "GND" H 9525 1300 40  0000 C CNN
+F 2 "" H 9525 1350 60  0000 C CNN
+F 3 "" H 9525 1350 60  0000 C CNN
+	1    9525 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR40
+U 1 1 56B0AFFC
+P 10250 10175
+F 0 "#PWR40" H 10300 10225 60  0001 C CNN
+F 1 "GND" H 10250 10125 40  0000 C CNN
+F 2 "" H 10250 10175 60  0000 C CNN
+F 3 "" H 10250 10175 60  0000 C CNN
+	1    10250 10175
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:GND #PWR41
+U 1 1 56AFA8EB
+P 10450 1350
+F 0 "#PWR41" H 10500 1400 60  0001 C CNN
+F 1 "GND" H 10450 1300 40  0000 C CNN
+F 2 "" H 10450 1350 60  0000 C CNN
+F 3 "" H 10450 1350 60  0000 C CNN
+	1    10450 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:INDUCTOR L1
+U 1 1 56282015
+P 4550 4375
+F 0 "L1" H 4600 4625 40  0000 C CNN
+F 1 "10uH" V 4650 4375 40  0000 C CNN
+F 2 "Inductors:INDUCTOR_V" H 4550 4375 60  0001 C CNN
+F 3 "" H 4550 4375 60  0000 C CNN
+	1    4550 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:ZENER D1
+U 1 1 5650EA49
+P 2275 2825
+F 0 "D1" H 2150 2775 50  0000 C CNN
+F 1 "ZENER" V 2525 2825 40  0001 C CNN
+F 2 "w_smd_diode:micromelf" H 2275 2825 60  0001 C CNN
+F 3 "" H 2275 2825 60  0000 C CNN
+	1    2275 2825
+	1    0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:DIODESCH D2
+U 1 1 56CCBDA7
+P 2375 9350
+F 0 "D2" H 2525 9400 40  0000 C CNN
+F 1 "DIODESCH" H 2375 9250 40  0001 C CNN
+F 2 "" H 2375 9350 60  0000 C CNN
+F 3 "" H 2375 9350 60  0000 C CNN
+	1    2375 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:DIODESCH D3
+U 1 1 56CC9D3F
+P 2375 9525
+F 0 "D3" H 2525 9575 40  0000 C CNN
+F 1 "DIODESCH" H 2375 9425 40  0001 C CNN
+F 2 "" H 2375 9525 60  0000 C CNN
+F 3 "" H 2375 9525 60  0000 C CNN
+	1    2375 9525
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:DIODESCH D4
+U 1 1 56CCBEFF
+P 2375 9700
+F 0 "D4" H 2525 9750 40  0000 C CNN
+F 1 "DIODESCH" H 2375 9600 40  0001 C CNN
+F 2 "" H 2375 9700 60  0000 C CNN
+F 3 "" H 2375 9700 60  0000 C CNN
+	1    2375 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:DIODESCH D5
+U 1 1 56CCC1B6
+P 2375 10050
+F 0 "D5" H 2525 10100 40  0000 C CNN
+F 1 "DIODESCH" H 2375 9950 40  0001 C CNN
+F 2 "" H 2375 10050 60  0000 C CNN
+F 3 "" H 2375 10050 60  0000 C CNN
+	1    2375 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:DIODESCH D6
+U 1 1 56CCC30D
+P 2375 10225
+F 0 "D6" H 2525 10275 40  0000 C CNN
+F 1 "DIODESCH" H 2375 10125 40  0001 C CNN
+F 2 "" H 2375 10225 60  0000 C CNN
+F 3 "" H 2375 10225 60  0000 C CNN
+	1    2375 10225
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:DIODESCH D10
+U 1 1 56CD0A35
+P 9650 9000
+F 0 "D10" H 9775 8950 40  0000 C CNN
+F 1 "DIODESCH" H 9650 8900 40  0001 C CNN
+F 2 "" H 9650 9000 60  0000 C CNN
+F 3 "" H 9650 9000 60  0000 C CNN
+	1    9650 9000
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R1
+U 1 1 56503EC3
+P 1175 3600
+F 0 "R1" V 1100 3600 40  0000 C CNN
+F 1 "180" V 1182 3601 40  0000 C CNN
+F 2 "libcms:SM0805" V 1105 3600 30  0001 C CNN
+F 3 "" H 1175 3600 30  0000 C CNN
+	1    1175 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R2
+U 1 1 5650F2B2
+P 1725 2825
+F 0 "R2" V 1650 2825 40  0000 C CNN
+F 1 "100" V 1732 2826 40  0000 C CNN
+F 2 "libcms:SM0805" V 1655 2825 30  0001 C CNN
+F 3 "" H 1725 2825 30  0000 C CNN
+	1    1725 2825
+	0    -1   1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R3
+U 1 1 5650EE24
+P 2225 3025
+F 0 "R3" V 2150 3025 40  0000 C CNN
+F 1 "10k" V 2232 3026 40  0000 C CNN
+F 2 "libcms:SM0805" V 2155 3025 30  0001 C CNN
+F 3 "" H 2225 3025 30  0000 C CNN
+	1    2225 3025
+	0    -1   1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R4
+U 1 1 56CF12BF
+P 2375 9875
+F 0 "R4" V 2450 9875 40  0000 C CNN
+F 1 "180" V 2382 9876 40  0000 C CNN
+F 2 "libcms:SM0805" V 2305 9875 30  0001 C CNN
+F 3 "" H 2375 9875 30  0000 C CNN
+	1    2375 9875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R5
+U 1 1 5649378B
+P 2375 10750
+F 0 "R5" V 2450 10750 40  0000 C CNN
+F 1 "180" V 2382 10751 40  0000 C CNN
+F 2 "libcms:SM0805" V 2305 10750 30  0001 C CNN
+F 3 "" H 2375 10750 30  0000 C CNN
+	1    2375 10750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R6
+U 1 1 56493D3B
+P 2375 10925
+F 0 "R6" V 2450 10925 40  0000 C CNN
+F 1 "180" V 2382 10926 40  0000 C CNN
+F 2 "libcms:SM0805" V 2305 10925 30  0001 C CNN
+F 3 "" H 2375 10925 30  0000 C CNN
+	1    2375 10925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R7
+U 1 1 56493E12
+P 2375 11100
+F 0 "R7" V 2450 11100 40  0000 C CNN
+F 1 "180" V 2382 11101 40  0000 C CNN
+F 2 "libcms:SM0805" V 2305 11100 30  0001 C CNN
+F 3 "" H 2375 11100 30  0000 C CNN
+	1    2375 11100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R8
+U 1 1 56493EDA
+P 2375 11275
+F 0 "R8" V 2450 11275 40  0000 C CNN
+F 1 "180" V 2382 11276 40  0000 C CNN
+F 2 "libcms:SM0805" V 2305 11275 30  0001 C CNN
+F 3 "" H 2375 11275 30  0000 C CNN
+	1    2375 11275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R9
+U 1 1 56493FA9
+P 2375 11450
+F 0 "R9" V 2450 11450 40  0000 C CNN
+F 1 "180" V 2382 11451 40  0000 C CNN
+F 2 "libcms:SM0805" V 2305 11450 30  0001 C CNN
+F 3 "" H 2375 11450 30  0000 C CNN
+	1    2375 11450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R10
+U 1 1 5649407B
+P 2375 11625
+F 0 "R10" V 2450 11625 40  0000 C CNN
+F 1 "180" V 2382 11626 40  0000 C CNN
+F 2 "libcms:SM0805" V 2305 11625 30  0001 C CNN
+F 3 "" H 2375 11625 30  0000 C CNN
+	1    2375 11625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R11
+U 1 1 562848EE
+P 4250 4400
+F 0 "R11" H 4200 4200 40  0000 C CNN
+F 1 "10K" V 4257 4401 40  0000 C CNN
+F 2 "libcms:SM0805" V 4180 4400 30  0001 C CNN
+F 3 "" H 4250 4400 30  0000 C CNN
+	1    4250 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R12
+U 1 1 564C2B2B
+P 5925 14650
+F 0 "R12" V 6000 14650 40  0000 C CNN
+F 1 "4K7" V 5932 14651 40  0000 C CNN
+F 2 "libcms:SM0805" V 5855 14650 30  0001 C CNN
+F 3 "" H 5925 14650 30  0000 C CNN
+	1    5925 14650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R13
+U 1 1 564C2B31
+P 5925 14825
+F 0 "R13" V 5850 14825 40  0000 C CNN
+F 1 "4K7" V 5932 14826 40  0000 C CNN
+F 2 "libcms:SM0805" V 5855 14825 30  0001 C CNN
+F 3 "" H 5925 14825 30  0000 C CNN
+	1    5925 14825
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R14
+U 1 1 564C2B39
+P 5925 15000
+F 0 "R14" V 5850 15000 40  0000 C CNN
+F 1 "4K7" V 5932 15001 40  0000 C CNN
+F 2 "libcms:SM0805" V 5855 15000 30  0001 C CNN
+F 3 "" H 5925 15000 30  0000 C CNN
+	1    5925 15000
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R15
+U 1 1 564B40E1
+P 8850 14175
+F 0 "R15" H 8775 13975 40  0000 C CNN
+F 1 "170K" V 8857 14176 40  0000 C CNN
+F 2 "libcms:SM0805" V 8780 14175 30  0001 C CNN
+F 3 "" H 8850 14175 30  0000 C CNN
+	1    8850 14175
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R16
+U 1 1 5652F540
+P 8875 6200
+F 0 "R16" V 8800 6200 40  0000 C CNN
+F 1 "100" V 8882 6201 40  0000 C CNN
+F 2 "libcms:SM0805" V 8805 6200 30  0001 C CNN
+F 3 "" H 8875 6200 30  0000 C CNN
+	1    8875 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R17
+U 1 1 5652F6A5
+P 8875 6375
+F 0 "R17" V 8800 6375 40  0000 C CNN
+F 1 "100" V 8882 6376 40  0000 C CNN
+F 2 "libcms:SM0805" V 8805 6375 30  0001 C CNN
+F 3 "" H 8875 6375 30  0000 C CNN
+	1    8875 6375
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R18
+U 1 1 5652F279
+P 8875 6550
+F 0 "R18" V 8800 6550 40  0000 C CNN
+F 1 "100" V 8882 6551 40  0000 C CNN
+F 2 "libcms:SM0805" V 8805 6550 30  0001 C CNN
+F 3 "" H 8875 6550 30  0000 C CNN
+	1    8875 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R19
+U 1 1 5659CEFF
+P 8875 10575
+F 0 "R19" V 8800 10575 40  0000 C CNN
+F 1 "180" V 8882 10576 40  0000 C CNN
+F 2 "libcms:SM1206" V 8805 10575 30  0001 C CNN
+F 3 "" H 8875 10575 30  0000 C CNN
+	1    8875 10575
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R20
+U 1 1 564828C0
+P 9125 1950
+F 0 "R20" V 9050 1950 40  0000 C CNN
+F 1 "10K" V 9132 1951 40  0000 C CNN
+F 2 "libcms:SM0805" V 9055 1950 30  0001 C CNN
+F 3 "" H 9125 1950 30  0000 C CNN
+	1    9125 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R21
+U 1 1 564B4217
+P 9150 14175
+F 0 "R21" H 9075 13975 40  0000 C CNN
+F 1 "170K" V 9157 14176 40  0000 C CNN
+F 2 "libcms:SM0805" V 9080 14175 30  0001 C CNN
+F 3 "" H 9150 14175 30  0000 C CNN
+	1    9150 14175
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R22
+U 1 1 564B8086
+P 9200 8075
+F 0 "R22" H 9275 8275 40  0000 C CNN
+F 1 "4K7" V 9207 8076 40  0000 C CNN
+F 2 "libcms:SM0805" V 9130 8075 30  0001 C CNN
+F 3 "" H 9200 8075 30  0000 C CNN
+	1    9200 8075
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:R R23
+U 1 1 564B839D
+P 9375 8075
+F 0 "R23" H 9450 8275 40  0000 C CNN
+F 1 "4K7" V 9382 8076 40  0000 C CNN
+F 2 "libcms:SM0805" V 9305 8075 30  0001 C CNN
+F 3 "" H 9375 8075 30  0000 C CNN
+	1    9375 8075
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:R R24
+U 1 1 564B6F44
+P 9450 14175
+F 0 "R24" H 9375 13975 40  0000 C CNN
+F 1 "170K" V 9457 14176 40  0000 C CNN
+F 2 "libcms:SM0805" V 9380 14175 30  0001 C CNN
+F 3 "" H 9450 14175 30  0000 C CNN
+	1    9450 14175
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R25
+U 1 1 564BD97A
+P 9550 8075
+F 0 "R25" H 9625 8275 40  0000 C CNN
+F 1 "4K7" V 9557 8076 40  0000 C CNN
+F 2 "libcms:SM0805" V 9480 8075 30  0001 C CNN
+F 3 "" H 9550 8075 30  0000 C CNN
+	1    9550 8075
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:R R26
+U 1 1 56CD01D2
+P 9625 8825
+F 0 "R26" V 9550 8825 40  0000 C CNN
+F 1 "4K7" V 9632 8826 40  0000 C CNN
+F 2 "libcms:SM0805" V 9555 8825 30  0001 C CNN
+F 3 "" H 9625 8825 30  0000 C CNN
+	1    9625 8825
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R27
+U 1 1 564B74EB
+P 9750 14175
+F 0 "R27" H 9675 13975 40  0000 C CNN
+F 1 "170K" V 9757 14176 40  0000 C CNN
+F 2 "libcms:SM0805" V 9680 14175 30  0001 C CNN
+F 3 "" H 9750 14175 30  0000 C CNN
+	1    9750 14175
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R28
+U 1 1 5653A054
+P 9975 8075
+F 0 "R28" H 10075 7875 40  0000 C CNN
+F 1 "10K" V 9982 8076 40  0000 C CNN
+F 2 "libcms:SM0805" V 9905 8075 30  0001 C CNN
+F 3 "" H 9975 8075 30  0000 C CNN
+	1    9975 8075
+	1    0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R29
+U 1 1 5647B61A
+P 10625 3225
+F 0 "R29" V 10705 3225 40  0000 C CNN
+F 1 "250" V 10632 3226 40  0000 C CNN
+F 2 "libcms:SM0805" V 10555 3225 30  0001 C CNN
+F 3 "" H 10625 3225 30  0000 C CNN
+	1    10625 3225
+	0    1    -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R30
+U 1 1 5647B574
+P 10625 3425
+F 0 "R30" V 10705 3425 40  0000 C CNN
+F 1 "250" V 10632 3426 40  0000 C CNN
+F 2 "libcms:SM0805" V 10555 3425 30  0001 C CNN
+F 3 "" H 10625 3425 30  0000 C CNN
+	1    10625 3425
+	0    1    -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:R R31
+U 1 1 5647B300
+P 10625 3625
+F 0 "R31" V 10705 3625 40  0000 C CNN
+F 1 "250" V 10632 3626 40  0000 C CNN
+F 2 "libcms:SM0805" V 10555 3625 30  0001 C CNN
+F 3 "" H 10625 3625 30  0000 C CNN
+	1    10625 3625
+	0    1    -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:LED D7
+U 1 1 56543D85
+P 9325 6200
+F 0 "D7" H 9200 6150 50  0000 C CNN
+F 1 "LED" H 9525 6150 50  0001 C CNN
+F 2 "w_smd_leds:Led_0603" H 9325 6200 60  0001 C CNN
+F 3 "" H 9325 6200 60  0000 C CNN
+	1    9325 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:LED D8
+U 1 1 56543539
+P 9325 6375
+F 0 "D8" H 9200 6325 50  0000 C CNN
+F 1 "LED" H 9525 6325 50  0001 C CNN
+F 2 "w_smd_leds:Led_0603" H 9325 6375 60  0001 C CNN
+F 3 "" H 9325 6375 60  0000 C CNN
+	1    9325 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:LED D9
+U 1 1 56543F1B
+P 9325 6550
+F 0 "D9" H 9200 6500 50  0000 C CNN
+F 1 "LED" H 9525 6500 50  0001 C CNN
+F 2 "w_smd_leds:Led_0603" H 9325 6550 60  0001 C CNN
+F 3 "" H 9325 6550 60  0000 C CNN
+	1    9325 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:LED D11
+U 1 1 564780A2
+P 10175 3225
+F 0 "D11" H 10050 3175 50  0000 C CNN
+F 1 "LED" H 10175 3125 50  0001 C CNN
+F 2 "w_smd_leds:Led_0603" H 10175 3225 60  0001 C CNN
+F 3 "" H 10175 3225 60  0000 C CNN
+	1    10175 3225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:LED D12
+U 1 1 56478303
+P 10175 3425
+F 0 "D12" H 10050 3375 50  0000 C CNN
+F 1 "LED" H 10175 3325 50  0001 C CNN
+F 2 "w_smd_leds:Led_0603" H 10175 3425 60  0001 C CNN
+F 3 "" H 10175 3425 60  0000 C CNN
+	1    10175 3425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:LED D13
+U 1 1 56478433
+P 10175 3625
+F 0 "D13" H 10050 3575 50  0000 C CNN
+F 1 "LED" H 10175 3525 50  0001 C CNN
+F 2 "w_smd_leds:Led_0603" H 10175 3625 60  0001 C CNN
+F 3 "" H 10175 3625 60  0000 C CNN
+	1    10175 3625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C1
+U 1 1 56308FC9
+P 900 6275
+F 0 "C1" H 900 6375 40  0000 L CNN
+F 1 "0.1uF" H 906 6190 40  0000 L CNN
+F 2 "libcms:SM0603_Capa" H 938 6125 30  0001 C CNN
+F 3 "" H 900 6275 60  0000 C CNN
+	1    900  6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C2
+U 1 1 56308EF7
+P 2100 6275
+F 0 "C2" H 2100 6375 40  0000 L CNN
+F 1 "2.2uF" H 2106 6190 40  0000 L CNN
+F 2 "libcms:SM0603_Capa" H 2138 6125 30  0001 C CNN
+F 3 "" H 2100 6275 60  0000 C CNN
+	1    2100 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C3
+U 1 1 564A4610
+P 3450 4400
+F 0 "C3" H 3450 4500 40  0000 L CNN
+F 1 "22pF" H 3456 4315 40  0000 L CNN
+F 2 "libcms:SM1206" H 3488 4250 30  0001 C CNN
+F 3 "" H 3450 4400 60  0000 C CNN
+	1    3450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C4
+U 1 1 5646B0D6
+P 3500 13000
+F 0 "C4" H 3400 13100 40  0000 L CNN
+F 1 "22pF" H 3506 12915 40  0000 L CNN
+F 2 "libcms:SM1206" H 3538 12850 30  0001 C CNN
+F 3 "" H 3500 13000 60  0000 C CNN
+	1    3500 13000
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C5
+U 1 1 5646B1BF
+P 4300 13000
+F 0 "C5" H 4325 12900 40  0000 L CNN
+F 1 "22pF" H 4150 13075 40  0000 L CNN
+F 2 "libcms:SM1206" H 4338 12850 30  0001 C CNN
+F 3 "" H 4300 13000 60  0000 C CNN
+	1    4300 13000
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:C C6
+U 1 1 564A0FC8
+P 5050 4700
+F 0 "C6" H 5050 4800 40  0000 L CNN
+F 1 "10uF" H 5056 4615 40  0000 L CNN
+F 2 "libcms:SM0603_Capa" H 5088 4550 30  0001 C CNN
+F 3 "" H 5050 4700 60  0000 C CNN
+	1    5050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C7
+U 1 1 5649F351
+P 5300 4700
+F 0 "C7" H 5300 4800 40  0000 L CNN
+F 1 "100nF" H 5306 4615 40  0000 L CNN
+F 2 "libcms:SM0402" H 5338 4550 30  0001 C CNN
+F 3 "" H 5300 4700 60  0000 C CNN
+	1    5300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C8
+U 1 1 5649F4BC
+P 5550 4700
+F 0 "C8" H 5550 4800 40  0000 L CNN
+F 1 "100nF" H 5556 4615 40  0000 L CNN
+F 2 "libcms:SM0402" H 5588 4550 30  0001 C CNN
+F 3 "" H 5550 4700 60  0000 C CNN
+	1    5550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C9
+U 1 1 5649F622
+P 5800 4700
+F 0 "C9" H 5800 4800 40  0000 L CNN
+F 1 "100nF" H 5806 4615 40  0000 L CNN
+F 2 "libcms:SM0402" H 5838 4550 30  0001 C CNN
+F 3 "" H 5800 4700 60  0000 C CNN
+	1    5800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C10
+U 1 1 5649FA31
+P 6050 4700
+F 0 "C10" H 6050 4800 40  0000 L CNN
+F 1 "100nF" H 6056 4615 40  0000 L CNN
+F 2 "libcms:SM0402" H 6088 4550 30  0001 C CNN
+F 3 "" H 6050 4700 60  0000 C CNN
+	1    6050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C11
+U 1 1 5649FBA1
+P 6300 4700
+F 0 "C11" H 6300 4800 40  0000 L CNN
+F 1 "100nF" H 6306 4615 40  0000 L CNN
+F 2 "libcms:SM0402" H 6338 4550 30  0001 C CNN
+F 3 "" H 6300 4700 60  0000 C CNN
+	1    6300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C12
+U 1 1 5649FD10
+P 6550 4700
+F 0 "C12" H 6550 4800 40  0000 L CNN
+F 1 "100nF" H 6556 4615 40  0000 L CNN
+F 2 "libcms:SM0402" H 6588 4550 30  0001 C CNN
+F 3 "" H 6550 4700 60  0000 C CNN
+	1    6550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C13
+U 1 1 5649FE8A
+P 6800 4700
+F 0 "C13" H 6800 4800 40  0000 L CNN
+F 1 "100nF" H 6806 4615 40  0000 L CNN
+F 2 "libcms:SM0402" H 6838 4550 30  0001 C CNN
+F 3 "" H 6800 4700 60  0000 C CNN
+	1    6800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C14
+U 1 1 564A0003
+P 7050 4700
+F 0 "C14" H 7050 4800 40  0000 L CNN
+F 1 "100nF" H 7056 4615 40  0000 L CNN
+F 2 "libcms:SM0402" H 7088 4550 30  0001 C CNN
+F 3 "" H 7050 4700 60  0000 C CNN
+	1    7050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C15
+U 1 1 564A16C9
+P 7300 4700
+F 0 "C15" H 7300 4800 40  0000 L CNN
+F 1 "100nF" H 7306 4615 40  0000 L CNN
+F 2 "libcms:SM0402" H 7338 4550 30  0001 C CNN
+F 3 "" H 7300 4700 60  0000 C CNN
+	1    7300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C16
+U 1 1 564A1858
+P 7550 4700
+F 0 "C16" H 7550 4800 40  0000 L CNN
+F 1 "100nF" H 7556 4615 40  0000 L CNN
+F 2 "libcms:SM0402" H 7588 4550 30  0001 C CNN
+F 3 "" H 7550 4700 60  0000 C CNN
+	1    7550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C17
+U 1 1 564A20DF
+P 7800 4700
+F 0 "C17" H 7800 4800 40  0000 L CNN
+F 1 "10uF" H 7806 4615 40  0000 L CNN
+F 2 "libcms:SM0603_Capa" H 7838 4550 30  0001 C CNN
+F 3 "" H 7800 4700 60  0000 C CNN
+	1    7800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C18
+U 1 1 564B9A31
+P 8700 14175
+F 0 "C18" H 8700 14275 40  0000 L CNN
+F 1 "C" H 8706 14090 40  0000 L CNN
+F 2 "libcms:SM0603_Capa" H 8738 14025 30  0001 C CNN
+F 3 "" H 8700 14175 60  0000 C CNN
+	1    8700 14175
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C19
+U 1 1 564B9915
+P 9000 14175
+F 0 "C19" H 9000 14275 40  0000 L CNN
+F 1 "C" H 9006 14090 40  0000 L CNN
+F 2 "libcms:SM0603_Capa" H 9038 14025 30  0001 C CNN
+F 3 "" H 9000 14175 60  0000 C CNN
+	1    9000 14175
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C20
+U 1 1 56CD10B7
+P 9175 9475
+F 0 "C20" H 9025 9375 40  0000 L CNN
+F 1 "100nF" V 9300 9400 40  0000 L CNN
+F 2 "libcms:SM0402" H 9213 9325 30  0001 C CNN
+F 3 "" H 9175 9475 60  0000 C CNN
+	1    9175 9475
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:C C21
+U 1 1 564B97F4
+P 9300 14175
+F 0 "C21" H 9300 14275 40  0000 L CNN
+F 1 "C" H 9306 14090 40  0000 L CNN
+F 2 "libcms:SM0603_Capa" H 9338 14025 30  0001 C CNN
+F 3 "" H 9300 14175 60  0000 C CNN
+	1    9300 14175
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:C C22
+U 1 1 564B8FFF
+P 9600 14175
+F 0 "C22" H 9600 14275 40  0000 L CNN
+F 1 "C" H 9606 14090 40  0000 L CNN
+F 2 "libcms:SM0603_Capa" H 9638 14025 30  0001 C CNN
+F 3 "" H 9600 14175 60  0000 C CNN
+	1    9600 14175
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:FILTER FB1
+U 1 1 564E11B8
+P 3125 1775
+F 0 "FB1" H 3125 1925 60  0000 C CNN
+F 1 "FILTER" H 3125 1675 60  0001 C CNN
+F 2 "libcms:SM0805" H 3125 1775 60  0001 C CNN
+F 3 "" H 3125 1775 60  0000 C CNN
+	1    3125 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:FILTER FB2
+U 1 1 564E11BE
+P 3125 2100
+F 0 "FB2" H 3125 2225 60  0000 C CNN
+F 1 "FILTER" H 3125 2000 60  0001 C CNN
+F 2 "libcms:SM0805" H 3125 2100 60  0001 C CNN
+F 3 "" H 3125 2100 60  0000 C CNN
+	1    3125 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:FILTER FB3
+U 1 1 564E11C4
+P 3125 2425
+F 0 "FB3" H 3125 2550 60  0000 C CNN
+F 1 "FILTER" H 3125 2325 60  0001 C CNN
+F 2 "libcms:SM0805" H 3125 2425 60  0001 C CNN
+F 3 "" H 3125 2425 60  0000 C CNN
+	1    3125 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:FILTER FB4
+U 1 1 564E11CA
+P 3125 2750
+F 0 "FB4" H 3125 2875 60  0000 C CNN
+F 1 "FILTER" H 3125 2650 60  0001 C CNN
+F 2 "libcms:SM0805" H 3125 2750 60  0001 C CNN
+F 3 "" H 3125 2750 60  0000 C CNN
+	1    3125 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:FILTER FB5
+U 1 1 564D3A11
+P 3950 1275
+F 0 "FB5" H 3950 1425 60  0000 C CNN
+F 1 "FILTER" H 3950 1175 60  0001 C CNN
+F 2 "libcms:SM0805" H 3950 1275 60  0001 C CNN
+F 3 "" H 3950 1275 60  0000 C CNN
+	1    3950 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:FILTER FB6
+U 1 1 564D3B44
+P 3950 1600
+F 0 "FB6" H 3950 1750 60  0000 C CNN
+F 1 "FILTER" H 3950 1500 60  0001 C CNN
+F 2 "libcms:SM0805" H 3950 1600 60  0001 C CNN
+F 3 "" H 3950 1600 60  0000 C CNN
+	1    3950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:FILTER FB7
+U 1 1 564D3C87
+P 3950 1925
+F 0 "FB7" H 3950 2075 60  0000 C CNN
+F 1 "FILTER" H 3950 1825 60  0001 C CNN
+F 2 "libcms:SM0805" H 3950 1925 60  0001 C CNN
+F 3 "" H 3950 1925 60  0000 C CNN
+	1    3950 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:FILTER FB8
+U 1 1 564D3DF3
+P 3950 2250
+F 0 "FB8" H 3950 2400 60  0000 C CNN
+F 1 "FILTER" H 3950 2150 60  0001 C CNN
+F 2 "libcms:SM0805" H 3950 2250 60  0001 C CNN
+F 3 "" H 3950 2250 60  0000 C CNN
+	1    3950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:FILTER FB9
+U 1 1 564205C5
+P 8275 4900
+F 0 "FB9" H 8275 5025 60  0000 C CNN
+F 1 "FERIT" H 8275 4800 60  0001 C CNN
+F 2 "libcms:SM0805" H 8275 4900 60  0001 C CNN
+F 3 "" H 8275 4900 60  0000 C CNN
+	1    8275 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:CRYSTAL X1
+U 1 1 5646092E
+P 3900 12750
+F 0 "X1" H 3700 12675 60  0000 C CNN
+F 1 "16Mhz" H 3900 12950 60  0000 C CNN
+F 2 "w_crystal:crystal_hc-49s" H 3900 12750 60  0001 C CNN
+F 3 "" H 3900 12750 60  0000 C CNN
+	1    3900 12750
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_2 P1
+U 1 1 56516BC1
+P 825 5225
+F 0 "P1" V 775 5225 40  0000 C CNN
+F 1 "RPI_supp" V 875 5225 40  0000 C CNN
+F 2 "w_pin_strip:pin_strip_2" H 825 5225 60  0001 C CNN
+F 3 "" H 825 5225 60  0000 C CNN
+	1    825  5225
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_3 K1
+U 1 1 564FEE71
+P 1025 4275
+F 0 "K1" V 975 4275 50  0000 C CNN
+F 1 "Power" V 1075 4275 40  0000 C CNN
+F 2 "w_conn_misc:dc_socket" H 1025 4275 60  0001 C CNN
+F 3 "" H 1025 4275 60  0000 C CNN
+	1    1025 4275
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_2 P5
+U 1 1 564F2B0C
+P 1500 875
+F 0 "P5" V 1450 875 40  0000 C CNN
+F 1 "Add_BRD" V 1550 875 40  0000 C CNN
+F 2 "myfootprint:MOLEX_mega_fit_2" H 1500 875 60  0001 C CNN
+F 3 "" H 1500 875 60  0000 C CNN
+	1    1500 875 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_2 P6
+U 1 1 564F7E73
+P 1500 4275
+F 0 "P6" V 1450 4275 40  0000 C CNN
+F 1 "BATT" V 1550 4275 40  0000 C CNN
+F 2 "myfootprint:XT30" H 1500 4275 60  0001 C CNN
+F 3 "" H 1500 4275 60  0000 C CNN
+	1    1500 4275
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:SPST SW3
+U 1 1 5647045D
+P 3800 4400
+F 0 "SW3" H 3800 4300 70  0000 C CNN
+F 1 "REBOOT" H 3800 4300 70  0001 C CNN
+F 2 "myfootprint:Button_smd" H 3800 4400 60  0001 C CNN
+F 3 "" H 3800 4400 60  0000 C CNN
+	1    3800 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:SPST SW4
+U 1 1 565393C0
+P 9975 9500
+F 0 "SW4" H 9975 9400 50  0000 C CNN
+F 1 "MODE" H 9975 9400 70  0001 C CNN
+F 2 "myfootprint:Button_smd" H 9975 9500 60  0001 C CNN
+F 3 "" H 9975 9500 60  0000 C CNN
+	1    9975 9500
+	0    1    -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:MOSP Q1
+U 1 1 56ABC4F9
+P 2375 2500
+F 0 "Q1" H 2575 2350 40  0000 R CNN
+F 1 "Si7157DP" H 2350 2375 40  0000 R CNN
+F 2 "" H 2245 2602 29  0000 C CNN
+F 3 "" H 2375 2500 60  0000 C CNN
+	1    2375 2500
+	1    0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_4 P10
+U 1 1 564C2B1D
+P 5450 15350
+F 0 "P10" V 5400 15350 50  0000 C CNN
+F 1 "I2C0" V 5500 15350 50  0000 C CNN
+F 2 "w_pin_strip:pin_strip_4" H 5450 15350 60  0001 C CNN
+F 3 "" H 5450 15350 60  0000 C CNN
+	1    5450 15350
+	0    -1   1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_4 P16
+U 1 1 564AF863
+P 10100 13700
+F 0 "P16" V 10050 13700 50  0000 C CNN
+F 1 "CONN_4" V 10150 13700 50  0000 C CNN
+F 2 "w_pin_strip:pin_strip_4" H 10100 13700 60  0001 C CNN
+F 3 "" H 10100 13700 60  0000 C CNN
+	1    10100 13700
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_4 P17
+U 1 1 564AA4FF
+P 10600 8525
+F 0 "P17" V 10550 8525 50  0000 C CNN
+F 1 "I2C1" V 10650 8525 50  0000 C CNN
+F 2 "w_pin_strip:pin_strip_4" H 10600 8525 60  0001 C CNN
+F 3 "" H 10600 8525 60  0000 C CNN
+	1    10600 8525
+	1    0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_4 P18
+U 1 1 56514E69
+P 10625 2725
+F 0 "P18" V 10575 2725 50  0000 C CNN
+F 1 "GPIOs" V 10675 2725 50  0000 C CNN
+F 2 "w_pin_strip:pin_strip_4" H 10625 2725 60  0001 C CNN
+F 3 "" H 10625 2725 60  0000 C CNN
+	1    10625 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:DIPS_05 SW2
+U 1 1 56519D82
+P 1400 12900
+F 0 "SW2" V 1700 12900 60  0000 C CNN
+F 1 "DIPS_05" V 1700 12900 60  0001 C CNN
+F 2 "myfootprint:dip_switch_5" H 1400 12900 60  0001 C CNN
+F 3 "" H 1400 12900 60  0000 C CNN
+	1    1400 12900
+	0    1    1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:UBEC(5A) S1
+U 1 1 564D1711
+P 2075 1375
+F 0 "S1" H 2075 1175 60  0000 C CNN
+F 1 "UBEC(5A)" H 2075 1575 60  0000 C CNN
+F 2 "myfootprint:UBEC_5A" H 2025 1125 60  0001 C CNN
+F 3 "" H 2025 1125 60  0000 C CNN
+	1    2075 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:UBEC(5A) S2
+U 1 1 564E11B0
+P 2075 1875
+F 0 "S2" H 2275 1675 60  0000 C CNN
+F 1 "UBEC(5A)" H 2075 2075 60  0000 C CNN
+F 2 "myfootprint:UBEC_5A" H 2025 1625 60  0001 C CNN
+F 3 "" H 2025 1625 60  0000 C CNN
+	1    2075 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_6 P2
+U 1 1 564947B8
+P 1325 11175
+F 0 "P2" V 1275 11175 60  0000 C CNN
+F 1 "CONN_6" V 1375 11175 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 1325 11175 60  0001 C CNN
+F 3 "" H 1325 11175 60  0000 C CNN
+	1    1325 11175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_6 P7
+U 1 1 564EA699
+P 3000 14200
+F 0 "P7" V 2950 14200 60  0000 C CNN
+F 1 "CONN_6" V 3050 14200 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 3000 14200 60  0001 C CNN
+F 3 "" H 3000 14200 60  0000 C CNN
+	1    3000 14200
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_6 P8
+U 1 1 564EA9CC
+P 3250 14200
+F 0 "P8" V 3300 14200 60  0000 C CNN
+F 1 "CONN_6" V 3200 14200 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 3250 14200 60  0001 C CNN
+F 3 "" H 3250 14200 60  0000 C CNN
+	1    3250 14200
+	-1   0    0    1   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_6 P9
+U 1 1 5649A218
+P 5350 875
+F 0 "P9" V 5300 875 60  0000 C CNN
+F 1 "Sens0" V 5400 875 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 5350 875 60  0001 C CNN
+F 3 "" H 5350 875 60  0000 C CNN
+	1    5350 875 
+	0    1    -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_6 P11
+U 1 1 56B1C6CF
+P 6225 875
+F 0 "P11" V 6175 875 60  0000 C CNN
+F 1 "Sens1" V 6275 875 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 6225 875 60  0001 C CNN
+F 3 "" H 6225 875 60  0000 C CNN
+	1    6225 875 
+	0    1    -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_6 P12
+U 1 1 56B1D46E
+P 7150 875
+F 0 "P12" V 7100 875 60  0000 C CNN
+F 1 "Sens2" V 7200 875 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 7150 875 60  0001 C CNN
+F 3 "" H 7150 875 60  0000 C CNN
+	1    7150 875 
+	0    1    -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_6 P13
+U 1 1 56B1DC65
+P 8150 875
+F 0 "P13" V 8100 875 60  0000 C CNN
+F 1 "Sens3" V 8200 875 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 8150 875 60  0001 C CNN
+F 3 "" H 8150 875 60  0000 C CNN
+	1    8150 875 
+	0    1    -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_6 P14
+U 1 1 56B1F78F
+P 9150 875
+F 0 "P14" V 9100 875 60  0000 C CNN
+F 1 "Sens4" V 9200 875 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 9150 875 60  0001 C CNN
+F 3 "" H 9150 875 60  0000 C CNN
+	1    9150 875 
+	0    1    -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_6 P15
+U 1 1 56B1FF42
+P 10075 875
+F 0 "P15" V 10025 875 60  0000 C CNN
+F 1 "compass" V 10125 875 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 10075 875 60  0001 C CNN
+F 3 "" H 10075 875 60  0000 C CNN
+	1    10075 875 
+	0    1    -1   0   
+$EndComp
+$Comp
+L UNICON_board-rescue:relay RL1
+U 1 1 564F0A17
+P 2000 3475
+F 0 "RL1" H 2250 3200 60  0000 C CNN
+F 1 "TRS-L-12" H 2000 3800 60  0000 C CNN
+F 2 "myfootprint:relay_TRS_L_12" H 2000 3175 60  0001 C CNN
+F 3 "" H 2000 3175 60  0000 C CNN
+	1    2000 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:SWITCH_INV SW1
+U 1 1 56521121
+P 1175 2250
+F 0 "SW1" H 975 2400 50  0000 C CNN
+F 1 "on/off" H 1025 2100 50  0000 C CNN
+F 2 "w_switch:switch_mfp116dg-ra" H 1175 2250 60  0001 C CNN
+F 3 "" H 1175 2250 60  0000 C CNN
+	1    1175 2250
+	0    -1   1    0   
+$EndComp
+$Comp
+L UNICON_board-rescue:SPX2920U-3.3 U1
+U 1 1 5630625C
+P 1550 6075
+F 0 "U1" H 1750 5875 40  0000 C CNN
+F 1 "LF33CDT" H 1550 6275 40  0000 C CNN
+F 2 "w_smd_trans:d-pak" H 1550 6175 35  0001 C CIN
+F 3 "" H 1550 6075 60  0000 C CNN
+	1    1550 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_5X2 P3
+U 1 1 5628CAD7
+P 1400 14100
+F 0 "P3" H 1400 14400 60  0000 C CNN
+F 1 "CONN_5X2" V 1400 14100 50  0000 C CNN
+F 2 "w_conn_strip:vasch_strip_5x2" H 1400 14100 60  0001 C CNN
+F 3 "" H 1400 14100 60  0000 C CNN
+	1    1400 14100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:CONN_5X2 P4
+U 1 1 5631B8B7
+P 1400 15200
+F 0 "P4" H 1400 15500 60  0000 C CNN
+F 1 "Supp_board" V 1400 15200 50  0000 C CNN
+F 2 "w_conn_strip:vasch_strip_5x2" H 1400 15200 60  0001 C CNN
+F 3 "" H 1400 15200 60  0000 C CNN
+	1    1400 15200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:PCA9551 LDR1
+U 1 1 5647184A
+P 9125 3100
+F 0 "LDR1" H 8550 2200 47  0000 C CNN
+F 1 "PCA9551" H 9125 3100 47  0000 C CNN
+F 2 "libcms:TSSOP16" H 9025 2850 47  0001 C CNN
+F 3 "" H 9025 2850 47  0000 C CNN
+	1    9125 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L UNICON_board-rescue:ATXMEGA64A1-A IC1
+U 1 1 56ABF68C
+P 5150 8925
+F 0 "IC1" H 8350 5250 40  0000 L BNN
+F 1 "ATXMEGA64A1-A" H 5150 8925 40  0000 L BNN
+F 2 "TQFP100" H 5150 8925 35  0001 C CIN
+F 3 "" H 5150 8925 60  0000 C CNN
+	1    5150 8925
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
