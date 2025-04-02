@@ -4,7 +4,7 @@ The main goal was to build my own robot from scratch without using common
 construction parts, which can be bought nowadays in a many shops with things
 for hobbyists.
 
-<img src="https://drive.google.com/uc?export=view&id=1479mbTOzc1M6gUYy6qhR2WHieLqiz61x" height="500">
+![Robot](docs/klara01.png)
 
 In that time when I was creating my robot wasn't the opensource CAD programs
 on the sufficient level to design something which could be then sent to a
@@ -12,7 +12,7 @@ factory for fabrication. For this reason the mechanical construction was
 designed in inventor 2013. I case of electronic design I used Kicad.
 Project has already three upgrades, but first of them wasn't documented. Still
 I took some photos to catch the atmosphere of the very first steps in development 
-([claire-rev0](docs/klara01.png)).
+([claire-rev0](https://drive.google.com/open?id=1PmOoYiifd_Xv0sS2DL9yxbEeKM7cLnv_)).
 
 ## NAVIGATION IN PROJECT
 In next folders are placed README.md files as well with more precise content 
