@@ -12,7 +12,7 @@ factory for fabrication. For this reason the mechanical construction was
 designed in inventor 2013. I case of electronic design I used Kicad.
 Project has already three upgrades, but first of them wasn't documented. Still
 I took some photos to catch the atmosphere of the very first steps in development 
-([claire-rev0](https://drive.google.com/open?id=1PmOoYiifd_Xv0sS2DL9yxbEeKM7cLnv_)).
+([claire-rev0](docs/klara01.png)).
 
 ## NAVIGATION IN PROJECT
 In next folders are placed README.md files as well with more precise content 
