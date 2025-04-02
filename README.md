@@ -1,31 +1,23 @@
 # ROBOT CLAIRE
-This project is result of three years of development from my high school era ...
-The main goal was to build my own robot from scratch without using common
-construction parts, which can be bought nowadays in a many shops with things
-for hobbyists.
+This project is the result of three years of development from my high school
+years. The main goal was to build my own robot from scratch, without using
+common construction parts that are readily available in many hobbyist shops
+today.
 
 ![Robot](docs/klara01.png)
-
-In that time when I was creating my robot wasn't the opensource CAD programs
-on the sufficient level to design something which could be then sent to a
-factory for fabrication. For this reason the mechanical construction was 
-designed in inventor 2013. I case of electronic design I used Kicad.
-Project has already three upgrades, but first of them wasn't documented. Still
-I took some photos to catch the atmosphere of the very first steps in development 
-([claire-rev0](https://drive.google.com/open?id=1PmOoYiifd_Xv0sS2DL9yxbEeKM7cLnv_)).
+At the time when I was creating my robot, open-source CAD programs weren’t at a
+sufficient level to design something that could be sent to a factory for
+fabrication. For this reason, the mechanical design was created using Inventor
+2013, while the electronic design was done using KiCad. The project has already
+gone through three upgrades, but the first one wasn’t documented. However, I
+did take some photos to capture the atmosphere of the very first steps in
+development ([claire-rev0](https://drive.google.com/open?id=1PmOoYiifd_Xv0sS2DL9yxbEeKM7cLnv_)).
 
 ## NAVIGATION IN PROJECT
-In next folders are placed README.md files as well with more precise content 
-description. In particular folders, there is also additional description
-included eventuelly with installation and execution as it is a directory with 
-software. Currently is this repository in creation process so not all folders
-have been fully uploaded yet.
+In the following folders, you will find README.md files with more detailed
+descriptions of the content. Some folders also include additional information,
+such as installation and execution instructions, particularly in directories
+containing software. Please note that this repository is still under
+development, and not all folders have been fully uploaded yet.
 
 [![Video](http://img.youtube.com/vi/Z39dk2hXI14/0.jpg)](http://www.youtube.com/watch?v=Z39dk2hXI14 "")
-
-## REPOSITORY ORGANISATION
---
-
-## NOTES
-This repository haven't been created at the beginning of the project. It serves
-as design data storage for further development.
